@@ -1,0 +1,16 @@
+# PUBLIC, BUILD-TIME values. Never put passwords, JWT_SECRET or database URLs here.
+# Local development/preview: Vite proxies /api and WebSockets to port 8000.
+VITE_API_BASE_URL=/api
+# Optional FULL WebSocket endpoint. Empty derives the API origin + server WS path.
+VITE_WS_URL=
+
+# Vercel production examples (replace with your persistent backend's real URL):
+# VITE_API_BASE_URL=https://api.example.com/api
+# VITE_WS_URL=wss://api.example.com/api/multiplayer/ws
+# HTTPS pages always upgrade a ws/http WebSocket endpoint to wss.
+# Include /api in the REST base; do not append /auth or a trailing endpoint.
+# VITE_API_BASE remains a legacy alias, used only when VITE_API_BASE_URL is unset.
+# Changing Vercel environment variables requires a new frontend build/deployment.
+
+# Local-only proxy override: set in the shell that starts Vite, not a VITE_ secret.
+# CITYBUS_API_PROXY_TARGET=http://127.0.0.1:8000 npm run dev

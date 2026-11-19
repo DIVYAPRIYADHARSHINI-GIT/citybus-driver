@@ -1,0 +1,44 @@
+# Dependencies and Python environments, at any depth
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Build/tool output
+dist/
+build/
+out/
+.vercel/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage*
+.DS_Store
+
+# No dotenv files are ever tracked, including .env.example.
+# Public, non-secret templates are named environment.example instead.
+.env*
+**/.env*
+.local/
+**/jwt-secret
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local data and generated logs
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.log
+logs/
+test-results/
+
+# Screenshots and bugs are intentionally tracked in their dedicated folders.

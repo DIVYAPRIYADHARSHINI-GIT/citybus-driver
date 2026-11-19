@@ -1,0 +1,46 @@
+.photo-mode #home,.photo-mode #drive-ui,.photo-mode .topbar,.photo-mode #toast,.photo-mode #tooltip{visibility:hidden!important}
+#photo-bar{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:16px;background:#142c25ee;color:#edf3dc;padding:14px 20px;border:1px solid #76936d;border-radius:16px;z-index:100;max-width:95vw;flex-wrap:wrap;font-size:12px;letter-spacing:.05em}
+#photo-bar button{min-height:44px;background:#d0ec9a;color:#142c25;border:0;border-radius:8px;padding:8px 16px;cursor:pointer}
+#photo-bar label{display:flex;gap:10px;align-items:center}
+/* Phone landscape can be wider than the desktop breakpoint. Capability, not
+   width alone, decides whether the driving pedals must be present. */
+@media (pointer:coarse) and (orientation:landscape) and (max-height:540px){
+ body.driving .touch-driving{display:flex;position:absolute;bottom:36px;left:12px;right:12px;justify-content:space-between;pointer-events:none;gap:20px;z-index:15}
+ body.driving .touch-steer,body.driving .touch-pedals{display:flex;flex-direction:column;gap:8px}
+ body.driving .touch-driving button{pointer-events:auto;touch-action:none;border:1px solid #d3e7ba77;background:#193d2ef5;border-radius:10px;min-width:64px;min-height:56px;user-select:none;font-size:11px;font-weight:700}
+ body.driving .touch-pedals button{width:72px}
+ body.driving .touch-pedals .throttle{background:#b9e877;color:#17382b}
+ body.driving .touch-pedals .brake{background:#694a31}
+ body.driving .drive-bottom{left:90px;right:96px;bottom:30px;flex-direction:row;gap:8px}
+ body.driving .instrument-panel{min-width:210px;padding:10px}
+ body.driving .controls-area{width:260px;flex-shrink:0;display:block}
+ body.city-driving.driving .controls-area:not(.expanded){display:block}
+ body.driving .control-toolbar{display:flex;min-height:44px;padding-left:8px}
+ body.driving .control-toolbar>span{display:none}
+ body.driving .control-toolbar button{width:44px;height:44px}
+ body.driving #control-grid{display:none}
+ body.driving .controls-area.expanded #control-grid{display:grid}
+ body.driving .control{min-height:48px}
+ body.driving .transmission{min-height:44px;padding:0 4px}
+ body.driving .transmission button,body.driving .clutch-control input{min-height:44px}
+ body.driving .city-panel{right:96px;left:auto;top:78px;width:240px;max-height:150px;padding:8px}
+ body.driving .city-actions button{min-height:44px}
+ body.driving .city-mini,body.driving .city-panel>p{display:none}
+ body.driving:has(.controls-area.expanded) .city-panel{visibility:hidden}
+ body.driving #input-status{font-size:0}
+ body.driving #input-status:before{content:'TOUCH · HOLD PEDALS TO DRIVE';font-size:7px}
+}
+@media (pointer:coarse) and (orientation:landscape) and (max-width:700px){
+ body.driving .instrument-data{display:none}
+ body.driving .instrument-panel{min-width:85px}
+ body.driving .controls-area{width:240px}
+ body.driving .city-panel{top:72px;width:220px;max-height:134px}
+ body.driving .topbar .top-right:before{display:none}
+}
+@media (orientation:landscape) and (max-height:540px){
+ .city-panel{max-height:65vh;overflow:auto;max-width:250px}
+ .city-mini{max-height:70px}
+ .city-metrics{font-size:10px}
+ #photo-bar{bottom:8px;padding:8px;gap:8px}
+ button[data-hold]{min-width:56px;min-height:48px}
+}

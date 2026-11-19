@@ -1,0 +1,10 @@
+import puppeteer from 'puppeteer';
+import {mkdir} from 'node:fs/promises';
+await mkdir('test-results',{recursive:true});
+const browser=await puppeteer.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true,args:['--no-sandbox','--enable-webgl','--ignore-gpu-blocklist']});
+const page=await browser.newPage();await page.setViewport({width:1440,height:900,deviceScaleFactor:1});
+page.on('console',m=>{if(m.type()==='error')console.error('CONSOLE',m.text());});page.on('pageerror',e=>console.error('PAGE',e));
+await page.goto('http://127.0.0.1:4173/',{waitUntil:'networkidle0'});await page.waitForFunction(()=>window.citybus?.snapshot().frames>15);await page.screenshot({path:'test-results/home-desktop.png'});
+await page.click('#start');await new Promise(r=>setTimeout(r,800));await page.screenshot({path:'test-results/cockpit-desktop.png'});console.log(await page.evaluate(()=>window.citybus.snapshot()));
+await page.click('#pause');await page.click('#finish');await page.click('#log-done');await page.setViewport({width:390,height:844,deviceScaleFactor:1});await new Promise(r=>setTimeout(r,500));await page.screenshot({path:'test-results/home-mobile.png'});await page.click('#start');await new Promise(r=>setTimeout(r,300));await page.screenshot({path:'test-results/cockpit-mobile.png'});
+await browser.close();

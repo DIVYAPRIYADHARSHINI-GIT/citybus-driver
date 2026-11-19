@@ -1,0 +1,5450 @@
+[
+  {
+    "source": {
+      "schema": 1,
+      "cursor": 1000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500000,
+          "principal": 500000,
+          "interest_day": 0
+        }
+      ],
+      "events": [],
+      "ledger": [],
+      "settled": [],
+      "reputation": 70,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [],
+      "event_cursor": 5,
+      "daily": {},
+      "weekly": {},
+      "money": 5000000,
+      "xp": 0,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 0,
+          "wear": {
+            "engine": 0,
+            "brakes": 0,
+            "tires": 0,
+            "energy": 0
+          },
+          "energy_units": 210000,
+          "revision": 0,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 75,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ]
+    },
+    "target": 1000,
+    "expected": {
+      "schema": 1,
+      "cursor": 1000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500000,
+          "principal": 500000,
+          "interest_day": 0
+        }
+      ],
+      "events": [],
+      "ledger": [],
+      "settled": [],
+      "reputation": 70,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [],
+      "event_cursor": 5,
+      "daily": {},
+      "weekly": {},
+      "money": 5000000,
+      "xp": 0,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 0,
+          "wear": {
+            "engine": 0,
+            "brakes": 0,
+            "tires": 0,
+            "energy": 0
+          },
+          "energy_units": 210000,
+          "revision": 0,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 75,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ],
+      "bankruptcy_warning": false
+    }
+  },
+  {
+    "source": {
+      "schema": 1,
+      "cursor": 1000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500000,
+          "principal": 500000,
+          "interest_day": 0
+        }
+      ],
+      "events": [],
+      "ledger": [],
+      "settled": [],
+      "reputation": 70,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [],
+      "event_cursor": 5,
+      "daily": {},
+      "weekly": {},
+      "money": 5000000,
+      "xp": 0,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 0,
+          "wear": {
+            "engine": 0,
+            "brakes": 0,
+            "tires": 0,
+            "energy": 0
+          },
+          "energy_units": 210000,
+          "revision": 0,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 75,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ]
+    },
+    "target": 1004,
+    "expected": {
+      "schema": 1,
+      "cursor": 1004,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500000,
+          "principal": 500000,
+          "interest_day": 0
+        }
+      ],
+      "events": [],
+      "ledger": [
+        {
+          "id": "assignment-a:1001:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6250,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1004,
+          "route": "21"
+        }
+      ],
+      "settled": [
+        "assignment-a:1001"
+      ],
+      "reputation": 71,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [
+        "first-dispatch"
+      ],
+      "event_cursor": 5,
+      "daily": {
+        "0": 1
+      },
+      "weekly": {
+        "0": 1
+      },
+      "money": 5006081,
+      "xp": 10,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 340,
+          "wear": {
+            "engine": 2,
+            "brakes": 2,
+            "tires": 2,
+            "energy": 1
+          },
+          "energy_units": 210000,
+          "revision": 1,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 77,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ],
+      "bankruptcy_warning": false
+    }
+  },
+  {
+    "source": {
+      "schema": 1,
+      "cursor": 1000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500000,
+          "principal": 500000,
+          "interest_day": 0
+        }
+      ],
+      "events": [],
+      "ledger": [],
+      "settled": [],
+      "reputation": 70,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [],
+      "event_cursor": 5,
+      "daily": {},
+      "weekly": {},
+      "money": 5000000,
+      "xp": 0,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 0,
+          "wear": {
+            "engine": 0,
+            "brakes": 0,
+            "tires": 0,
+            "energy": 0
+          },
+          "energy_units": 210000,
+          "revision": 0,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 75,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ]
+    },
+    "target": 1020,
+    "expected": {
+      "schema": 1,
+      "cursor": 1020,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500000,
+          "principal": 500000,
+          "interest_day": 0
+        }
+      ],
+      "events": [],
+      "ledger": [
+        {
+          "id": "assignment-a:1001:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6250,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6000,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:ai_fares",
+          "kind": "ai_fares",
+          "amount": 5750,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "mission:daily:0",
+          "kind": "mission_reward",
+          "amount": 2000,
+          "slot": 1012,
+          "route": null
+        },
+        {
+          "id": "assignment-a:1013:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6750,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1016,
+          "route": "21"
+        }
+      ],
+      "settled": [
+        "assignment-a:1001",
+        "assignment-a:1005",
+        "assignment-a:1009",
+        "assignment-a:1013"
+      ],
+      "reputation": 74,
+      "skipped_slots": 0,
+      "claims": [
+        "daily:0"
+      ],
+      "achievements": [
+        "first-dispatch"
+      ],
+      "event_cursor": 5,
+      "daily": {
+        "0": 4
+      },
+      "weekly": {
+        "0": 4
+      },
+      "money": 5026074,
+      "xp": 63,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 1360,
+          "wear": {
+            "engine": 8,
+            "brakes": 8,
+            "tires": 8,
+            "energy": 4
+          },
+          "energy_units": 210000,
+          "revision": 4,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 83,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ],
+      "bankruptcy_warning": false
+    }
+  },
+  {
+    "source": {
+      "schema": 1,
+      "cursor": 1000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            0,
+            30,
+            60,
+            90,
+            120,
+            150,
+            180,
+            210,
+            240,
+            270,
+            300,
+            330,
+            360,
+            390,
+            420,
+            450,
+            480,
+            510,
+            540,
+            570,
+            600,
+            630,
+            660,
+            690,
+            720,
+            750,
+            780,
+            810,
+            840,
+            870,
+            900,
+            930,
+            960,
+            990,
+            1020,
+            1050,
+            1080,
+            1110,
+            1140,
+            1170,
+            1200,
+            1230,
+            1260,
+            1290,
+            1320,
+            1350,
+            1380,
+            1410
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500000,
+          "principal": 500000,
+          "interest_day": 0
+        }
+      ],
+      "events": [],
+      "ledger": [],
+      "settled": [],
+      "reputation": 70,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [],
+      "event_cursor": 5,
+      "daily": {},
+      "weekly": {},
+      "money": 5000000,
+      "xp": 0,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 0,
+          "wear": {
+            "engine": 0,
+            "brakes": 0,
+            "tires": 0,
+            "energy": 0
+          },
+          "energy_units": 210000,
+          "revision": 0,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 75,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ]
+    },
+    "target": 1440,
+    "expected": {
+      "schema": 1,
+      "cursor": 1440,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            0,
+            30,
+            60,
+            90,
+            120,
+            150,
+            180,
+            210,
+            240,
+            270,
+            300,
+            330,
+            360,
+            390,
+            420,
+            450,
+            480,
+            510,
+            540,
+            570,
+            600,
+            630,
+            660,
+            690,
+            720,
+            750,
+            780,
+            810,
+            840,
+            870,
+            900,
+            930,
+            960,
+            990,
+            1020,
+            1050,
+            1080,
+            1110,
+            1140,
+            1170,
+            1200,
+            1230,
+            1260,
+            1290,
+            1320,
+            1350,
+            1380,
+            1410
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500600,
+          "principal": 500000,
+          "interest_day": 1
+        }
+      ],
+      "events": [
+        {
+          "id": "event:6",
+          "kind": "fuel-spike",
+          "start": 1080,
+          "end": 1200,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:7",
+          "kind": "strike",
+          "start": 1260,
+          "end": 1380,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:8",
+          "kind": "festival",
+          "start": 1440,
+          "end": 1560,
+          "choice": null
+        }
+      ],
+      "ledger": [
+        {
+          "id": "assignment-a:1020:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 1023,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1020:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1023,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1020:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1023,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1020:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1023,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1050:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6750,
+          "slot": 1053,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1050:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1053,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1050:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1053,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1050:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1053,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1080:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6250,
+          "slot": 1083,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1080:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 1083,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1080:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1083,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1080:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1083,
+          "route": "21"
+        },
+        {
+          "id": "mission:daily:0",
+          "kind": "mission_reward",
+          "amount": 2000,
+          "slot": 1083,
+          "route": null
+        },
+        {
+          "id": "assignment-a:1110:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6000,
+          "slot": 1113,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1110:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 1113,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1110:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1113,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1110:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1113,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1140:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 1143,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1140:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 1143,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1140:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1143,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1140:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1143,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1170:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6750,
+          "slot": 1173,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1170:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 1173,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1170:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1173,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1170:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1173,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1200:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 1203,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1200:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1203,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1200:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1203,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1200:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1203,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1230:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 1233,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1230:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1233,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1230:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1233,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1230:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1233,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1260:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1263,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1260:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1263,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1260:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1263,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1290:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1293,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1290:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1293,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1290:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1293,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1320:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1323,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1320:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1323,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1320:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1323,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1350:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1353,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1350:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1353,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1350:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1353,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1380:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 1383,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1380:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1383,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1380:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1383,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1380:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1383,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1410:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 1413,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1410:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1413,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1410:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1413,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1410:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1413,
+          "route": "21"
+        },
+        {
+          "id": "loan:loan-a:1",
+          "kind": "interest",
+          "amount": -600,
+          "slot": 1440,
+          "route": null
+        }
+      ],
+      "settled": [
+        "assignment-a:1020",
+        "assignment-a:1050",
+        "assignment-a:1080",
+        "assignment-a:1110",
+        "assignment-a:1140",
+        "assignment-a:1170",
+        "assignment-a:1200",
+        "assignment-a:1230",
+        "assignment-a:1260",
+        "assignment-a:1290",
+        "assignment-a:1320",
+        "assignment-a:1350",
+        "assignment-a:1380",
+        "assignment-a:1410"
+      ],
+      "reputation": 81,
+      "skipped_slots": 0,
+      "claims": [
+        "daily:0"
+      ],
+      "achievements": [
+        "first-dispatch"
+      ],
+      "event_cursor": 8,
+      "daily": {
+        "0": 14
+      },
+      "weekly": {
+        "0": 14
+      },
+      "money": 5068602,
+      "xp": 146,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 3400,
+          "wear": {
+            "engine": 20,
+            "brakes": 20,
+            "tires": 20,
+            "energy": 10
+          },
+          "energy_units": 210000,
+          "revision": 14,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 91,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ],
+      "bankruptcy_warning": false
+    }
+  },
+  {
+    "source": {
+      "schema": 1,
+      "cursor": 1000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            0,
+            30,
+            60,
+            90,
+            120,
+            150,
+            180,
+            210,
+            240,
+            270,
+            300,
+            330,
+            360,
+            390,
+            420,
+            450,
+            480,
+            510,
+            540,
+            570,
+            600,
+            630,
+            660,
+            690,
+            720,
+            750,
+            780,
+            810,
+            840,
+            870,
+            900,
+            930,
+            960,
+            990,
+            1020,
+            1050,
+            1080,
+            1110,
+            1140,
+            1170,
+            1200,
+            1230,
+            1260,
+            1290,
+            1320,
+            1350,
+            1380,
+            1410
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500000,
+          "principal": 500000,
+          "interest_day": 0
+        }
+      ],
+      "events": [],
+      "ledger": [],
+      "settled": [],
+      "reputation": 70,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [],
+      "event_cursor": 5,
+      "daily": {},
+      "weekly": {},
+      "money": 5000000,
+      "xp": 0,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 0,
+          "wear": {
+            "engine": 0,
+            "brakes": 0,
+            "tires": 0,
+            "energy": 0
+          },
+          "energy_units": 210000,
+          "revision": 0,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 75,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ]
+    },
+    "target": 2200,
+    "expected": {
+      "schema": 1,
+      "cursor": 2200,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            0,
+            30,
+            60,
+            90,
+            120,
+            150,
+            180,
+            210,
+            240,
+            270,
+            300,
+            330,
+            360,
+            390,
+            420,
+            450,
+            480,
+            510,
+            540,
+            570,
+            600,
+            630,
+            660,
+            690,
+            720,
+            750,
+            780,
+            810,
+            840,
+            870,
+            900,
+            930,
+            960,
+            990,
+            1020,
+            1050,
+            1080,
+            1110,
+            1140,
+            1170,
+            1200,
+            1230,
+            1260,
+            1290,
+            1320,
+            1350,
+            1380,
+            1410
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500600,
+          "principal": 500000,
+          "interest_day": 1
+        }
+      ],
+      "events": [
+        {
+          "id": "event:6",
+          "kind": "fuel-spike",
+          "start": 1080,
+          "end": 1200,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:7",
+          "kind": "strike",
+          "start": 1260,
+          "end": 1380,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:8",
+          "kind": "festival",
+          "start": 1440,
+          "end": 1560,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:9",
+          "kind": "weather",
+          "start": 1620,
+          "end": 1740,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:10",
+          "kind": "quit",
+          "start": 1800,
+          "end": 1920,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:11",
+          "kind": "recall",
+          "start": 1980,
+          "end": 2100,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:12",
+          "kind": "fuel-spike",
+          "start": 2160,
+          "end": 2280,
+          "choice": null
+        }
+      ],
+      "ledger": [
+        {
+          "id": "assignment-a:1020:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 1023,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1020:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1023,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1020:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1023,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1020:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1023,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1050:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6750,
+          "slot": 1053,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1050:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1053,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1050:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1053,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1050:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1053,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1080:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6250,
+          "slot": 1083,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1080:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 1083,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1080:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1083,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1080:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1083,
+          "route": "21"
+        },
+        {
+          "id": "mission:daily:0",
+          "kind": "mission_reward",
+          "amount": 2000,
+          "slot": 1083,
+          "route": null
+        },
+        {
+          "id": "assignment-a:1110:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6000,
+          "slot": 1113,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1110:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 1113,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1110:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1113,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1110:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1113,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1140:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 1143,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1140:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 1143,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1140:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1143,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1140:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1143,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1170:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6750,
+          "slot": 1173,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1170:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 1173,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1170:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1173,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1170:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1173,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1200:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 1203,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1200:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1203,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1200:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1203,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1200:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1203,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1230:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 1233,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1230:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1233,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1230:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1233,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1230:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1233,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1260:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1263,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1260:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1263,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1260:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1263,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1290:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1293,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1290:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1293,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1290:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1293,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1320:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1323,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1320:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1323,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1320:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1323,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1350:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1353,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1350:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1353,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1350:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1353,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1380:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 1383,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1380:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1383,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1380:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1383,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1380:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1383,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1410:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 1413,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1410:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1413,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1410:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1413,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1410:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1413,
+          "route": "21"
+        },
+        {
+          "id": "loan:loan-a:1",
+          "kind": "interest",
+          "amount": -600,
+          "slot": 1440,
+          "route": null
+        },
+        {
+          "id": "assignment-a:1440:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8750,
+          "slot": 1443,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1440:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1443,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1440:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1443,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1440:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1443,
+          "route": "21"
+        },
+        {
+          "id": "mission:weekly:0",
+          "kind": "mission_reward",
+          "amount": 15000,
+          "slot": 1443,
+          "route": null
+        },
+        {
+          "id": "assignment-a:1470:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8500,
+          "slot": 1473,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1470:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1473,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1470:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1473,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1470:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1473,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1500:ai_fares",
+          "kind": "ai_fares",
+          "amount": 9000,
+          "slot": 1503,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1500:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1503,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1500:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1503,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1500:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1503,
+          "route": "21"
+        },
+        {
+          "id": "mission:daily:1",
+          "kind": "mission_reward",
+          "amount": 2000,
+          "slot": 1503,
+          "route": null
+        },
+        {
+          "id": "assignment-a:1530:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 1533,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1530:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1533,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1530:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1533,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1530:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1533,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1560:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 1563,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1560:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1563,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1560:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1563,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1560:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1563,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1590:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 1593,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1590:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1593,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1590:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1593,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1590:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1593,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1620:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 1623,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1620:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1623,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1620:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1623,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1620:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1623,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1650:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 1653,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1650:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1653,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1650:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1653,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1650:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1653,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1680:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 1683,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1680:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1683,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1680:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1683,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1680:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1683,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1710:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 1713,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1710:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1713,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1710:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1713,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1710:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1713,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1740:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8000,
+          "slot": 1743,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1740:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1743,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1740:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1743,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1740:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1743,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1770:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 1773,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1770:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1773,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1770:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1773,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1770:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1773,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1800:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 1803,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1800:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1803,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1800:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1803,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1800:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1803,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1830:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8500,
+          "slot": 1833,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1830:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1833,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1830:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1833,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1830:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1833,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1860:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 1863,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1860:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1863,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1860:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1863,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1860:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1863,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1890:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 1893,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1890:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1893,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1890:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1893,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1890:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1893,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1920:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 1923,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1920:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1923,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1920:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1923,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1920:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1923,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1950:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8750,
+          "slot": 1953,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1950:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1953,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1950:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1953,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1950:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1953,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1980:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 1983,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1980:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1983,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1980:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1983,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1980:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1983,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2010:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8000,
+          "slot": 2013,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2010:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 2013,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2010:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 2013,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2010:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 2013,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2040:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 2043,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2040:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 2043,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2040:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 2043,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2040:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 2043,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2070:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 2073,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2070:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 2073,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2070:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 2073,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2070:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 2073,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2100:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8750,
+          "slot": 2103,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2100:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 2103,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2100:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 2103,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2100:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 2103,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2130:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8250,
+          "slot": 2133,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2130:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 2133,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2130:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 2133,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2130:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 2133,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2160:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 2163,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2160:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 2163,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2160:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 2163,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2160:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 2163,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2190:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8250,
+          "slot": 2193,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2190:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 2193,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2190:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 2193,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:2190:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 2193,
+          "route": "21"
+        }
+      ],
+      "settled": [
+        "assignment-a:1020",
+        "assignment-a:1050",
+        "assignment-a:1080",
+        "assignment-a:1110",
+        "assignment-a:1140",
+        "assignment-a:1170",
+        "assignment-a:1200",
+        "assignment-a:1230",
+        "assignment-a:1260",
+        "assignment-a:1290",
+        "assignment-a:1320",
+        "assignment-a:1350",
+        "assignment-a:1380",
+        "assignment-a:1410",
+        "assignment-a:1440",
+        "assignment-a:1470",
+        "assignment-a:1500",
+        "assignment-a:1530",
+        "assignment-a:1560",
+        "assignment-a:1590",
+        "assignment-a:1620",
+        "assignment-a:1650",
+        "assignment-a:1680",
+        "assignment-a:1710",
+        "assignment-a:1740",
+        "assignment-a:1770",
+        "assignment-a:1800",
+        "assignment-a:1830",
+        "assignment-a:1860",
+        "assignment-a:1890",
+        "assignment-a:1920",
+        "assignment-a:1950",
+        "assignment-a:1980",
+        "assignment-a:2010",
+        "assignment-a:2040",
+        "assignment-a:2070",
+        "assignment-a:2100",
+        "assignment-a:2130",
+        "assignment-a:2160",
+        "assignment-a:2190"
+      ],
+      "reputation": 100,
+      "skipped_slots": 0,
+      "claims": [
+        "daily:0",
+        "weekly:0",
+        "daily:1"
+      ],
+      "achievements": [
+        "first-dispatch",
+        "trusted-operator"
+      ],
+      "event_cursor": 12,
+      "daily": {
+        "0": 14,
+        "1": 26
+      },
+      "weekly": {
+        "0": 40
+      },
+      "money": 5286192,
+      "xp": 556,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 12240,
+          "wear": {
+            "engine": 72,
+            "brakes": 72,
+            "tires": 72,
+            "energy": 236
+          },
+          "energy_units": 210000,
+          "revision": 41,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 100,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ],
+      "bankruptcy_warning": false
+    }
+  },
+  {
+    "source": {
+      "schema": 1,
+      "cursor": 1000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            0,
+            30,
+            60,
+            90,
+            120,
+            150,
+            180,
+            210,
+            240,
+            270,
+            300,
+            330,
+            360,
+            390,
+            420,
+            450,
+            480,
+            510,
+            540,
+            570,
+            600,
+            630,
+            660,
+            690,
+            720,
+            750,
+            780,
+            810,
+            840,
+            870,
+            900,
+            930,
+            960,
+            990,
+            1020,
+            1050,
+            1080,
+            1110,
+            1140,
+            1170,
+            1200,
+            1230,
+            1260,
+            1290,
+            1320,
+            1350,
+            1380,
+            1410
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500000,
+          "principal": 500000,
+          "interest_day": 0
+        }
+      ],
+      "events": [],
+      "ledger": [],
+      "settled": [],
+      "reputation": 70,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [],
+      "event_cursor": 5,
+      "daily": {},
+      "weekly": {},
+      "money": 5000000,
+      "xp": 0,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 0,
+          "wear": {
+            "engine": 0,
+            "brakes": 0,
+            "tires": 0,
+            "energy": 0
+          },
+          "energy_units": 210000,
+          "revision": 0,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 75,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ]
+    },
+    "target": 10000,
+    "expected": {
+      "schema": 1,
+      "cursor": 10000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            0,
+            30,
+            60,
+            90,
+            120,
+            150,
+            180,
+            210,
+            240,
+            270,
+            300,
+            330,
+            360,
+            390,
+            420,
+            450,
+            480,
+            510,
+            540,
+            570,
+            600,
+            630,
+            660,
+            690,
+            720,
+            750,
+            780,
+            810,
+            840,
+            870,
+            900,
+            930,
+            960,
+            990,
+            1020,
+            1050,
+            1080,
+            1110,
+            1140,
+            1170,
+            1200,
+            1230,
+            1260,
+            1290,
+            1320,
+            1350,
+            1380,
+            1410
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-a",
+          "balance": 500600,
+          "principal": 500000,
+          "interest_day": 6
+        }
+      ],
+      "events": [
+        {
+          "id": "event:48",
+          "kind": "fuel-spike",
+          "start": 8640,
+          "end": 8760,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:49",
+          "kind": "strike",
+          "start": 8820,
+          "end": 8940,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:50",
+          "kind": "festival",
+          "start": 9000,
+          "end": 9120,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:51",
+          "kind": "weather",
+          "start": 9180,
+          "end": 9300,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:52",
+          "kind": "quit",
+          "start": 9360,
+          "end": 9480,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:53",
+          "kind": "recall",
+          "start": 9540,
+          "end": 9660,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:54",
+          "kind": "fuel-spike",
+          "start": 9720,
+          "end": 9840,
+          "choice": null,
+          "finalized": true
+        },
+        {
+          "id": "event:55",
+          "kind": "strike",
+          "start": 9900,
+          "end": 10020,
+          "choice": null
+        }
+      ],
+      "ledger": [
+        {
+          "id": "assignment-a:8580:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 8583,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8580:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 8583,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8580:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8583,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8580:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8583,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8610:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 8613,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8610:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 8613,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8610:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8613,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8610:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8613,
+          "route": "21"
+        },
+        {
+          "id": "loan:loan-a:6",
+          "kind": "interest",
+          "amount": -600,
+          "slot": 8640,
+          "route": null
+        },
+        {
+          "id": "assignment-a:8640:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 8643,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8640:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 8643,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8640:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8643,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8640:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8643,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8670:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 8673,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8670:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 8673,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8670:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8673,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8670:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8673,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8700:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6750,
+          "slot": 8703,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8700:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 8703,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8700:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8703,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8700:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8703,
+          "route": "21"
+        },
+        {
+          "id": "mission:daily:6",
+          "kind": "mission_reward",
+          "amount": 2000,
+          "slot": 8703,
+          "route": null
+        },
+        {
+          "id": "assignment-a:8730:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6750,
+          "slot": 8733,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8730:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 8733,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8730:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8733,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8730:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8733,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8760:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 8763,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8760:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 8763,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8760:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8763,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8760:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8763,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8790:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6250,
+          "slot": 8793,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8790:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 8793,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8790:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8793,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8790:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8793,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8820:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 8823,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8820:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8823,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8820:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8823,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8850:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 8853,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8850:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8853,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8850:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8853,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8880:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 8883,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8880:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8883,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8880:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8883,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8910:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 8913,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8910:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8913,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8910:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8913,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8940:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 8943,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8940:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 8943,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8940:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8943,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8940:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8943,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8970:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6500,
+          "slot": 8973,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8970:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 8973,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8970:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 8973,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:8970:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 8973,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9000:ai_fares",
+          "kind": "ai_fares",
+          "amount": 9000,
+          "slot": 9003,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9000:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9003,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9000:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9003,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9000:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9003,
+          "route": "21"
+        },
+        {
+          "id": "mission:weekly:0",
+          "kind": "mission_reward",
+          "amount": 15000,
+          "slot": 9003,
+          "route": null
+        },
+        {
+          "id": "assignment-a:9030:ai_fares",
+          "kind": "ai_fares",
+          "amount": 9000,
+          "slot": 9033,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9030:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9033,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9030:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9033,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9030:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9033,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9060:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8500,
+          "slot": 9063,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9060:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9063,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9060:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9063,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9060:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9063,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9090:ai_fares",
+          "kind": "ai_fares",
+          "amount": 9000,
+          "slot": 9093,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9090:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9093,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9090:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9093,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9090:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9093,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9120:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 9123,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9120:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9123,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9120:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9123,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9120:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9123,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9150:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8000,
+          "slot": 9153,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9150:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9153,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9150:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9153,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9150:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9153,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9180:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 9183,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9180:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9183,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9180:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9183,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9180:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9183,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9210:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 9213,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9210:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9213,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9210:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9213,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9210:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9213,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9240:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 9243,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9240:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9243,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9240:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9243,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9240:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9243,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9270:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6750,
+          "slot": 9273,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9270:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9273,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9270:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9273,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9270:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9273,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9300:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 9303,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9300:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9303,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9300:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9303,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9300:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9303,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9330:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 9333,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9330:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9333,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9330:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9333,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9330:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9333,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9360:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8250,
+          "slot": 9363,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9360:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9363,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9360:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9363,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9360:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9363,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9390:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 9393,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9390:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9393,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9390:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9393,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9390:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9393,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9420:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 9423,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9420:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9423,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9420:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9423,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9420:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9423,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9450:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7000,
+          "slot": 9453,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9450:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9453,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9450:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9453,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9450:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9453,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9480:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 9483,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9480:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9483,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9480:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9483,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9480:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9483,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9510:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8000,
+          "slot": 9513,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9510:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9513,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9510:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9513,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9510:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9513,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9540:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 9543,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9540:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9543,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9540:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9543,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9540:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9543,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9570:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 9573,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9570:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9573,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9570:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9573,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9570:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9573,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9600:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8750,
+          "slot": 9603,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9600:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9603,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9600:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9603,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9600:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9603,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9630:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 9633,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9630:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9633,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9630:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9633,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9630:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9633,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9660:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 9663,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9660:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9663,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9660:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9663,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9660:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9663,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9690:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8500,
+          "slot": 9693,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9690:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9693,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9690:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9693,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9690:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9693,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9720:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8750,
+          "slot": 9723,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9720:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 9723,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9720:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9723,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9720:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9723,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9750:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 9753,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9750:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 9753,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9750:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9753,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9750:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9753,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9780:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8750,
+          "slot": 9783,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9780:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 9783,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9780:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9783,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9780:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9783,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9810:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 9813,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9810:energy",
+          "kind": "energy",
+          "amount": -26,
+          "slot": 9813,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9810:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9813,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9810:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9813,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9840:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8000,
+          "slot": 9843,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9840:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9843,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9840:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9843,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9840:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9843,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9870:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8750,
+          "slot": 9873,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9870:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9873,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9870:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9873,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9870:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9873,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9900:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9903,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9900:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9903,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9900:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9903,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9930:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9933,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9930:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9933,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9930:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9933,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9960:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9963,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9960:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9963,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9960:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9963,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9990:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 9993,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9990:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 9993,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:9990:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 9993,
+          "route": "21"
+        }
+      ],
+      "settled": [
+        "assignment-a:8580",
+        "assignment-a:8610",
+        "assignment-a:8640",
+        "assignment-a:8670",
+        "assignment-a:8700",
+        "assignment-a:8730",
+        "assignment-a:8760",
+        "assignment-a:8790",
+        "assignment-a:8820",
+        "assignment-a:8850",
+        "assignment-a:8880",
+        "assignment-a:8910",
+        "assignment-a:8940",
+        "assignment-a:8970",
+        "assignment-a:9000",
+        "assignment-a:9030",
+        "assignment-a:9060",
+        "assignment-a:9090",
+        "assignment-a:9120",
+        "assignment-a:9150",
+        "assignment-a:9180",
+        "assignment-a:9210",
+        "assignment-a:9240",
+        "assignment-a:9270",
+        "assignment-a:9300",
+        "assignment-a:9330",
+        "assignment-a:9360",
+        "assignment-a:9390",
+        "assignment-a:9420",
+        "assignment-a:9450",
+        "assignment-a:9480",
+        "assignment-a:9510",
+        "assignment-a:9540",
+        "assignment-a:9570",
+        "assignment-a:9600",
+        "assignment-a:9630",
+        "assignment-a:9660",
+        "assignment-a:9690",
+        "assignment-a:9720",
+        "assignment-a:9750",
+        "assignment-a:9780",
+        "assignment-a:9810",
+        "assignment-a:9840",
+        "assignment-a:9870",
+        "assignment-a:9900",
+        "assignment-a:9930",
+        "assignment-a:9960",
+        "assignment-a:9990"
+      ],
+      "reputation": 100,
+      "skipped_slots": 7560,
+      "claims": [
+        "daily:6",
+        "weekly:0"
+      ],
+      "achievements": [
+        "first-dispatch",
+        "trusted-operator"
+      ],
+      "event_cursor": 55,
+      "daily": {
+        "5": 2,
+        "6": 46
+      },
+      "weekly": {
+        "0": 48
+      },
+      "money": 5315074,
+      "xp": 596,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 13600,
+          "wear": {
+            "engine": 80,
+            "brakes": 80,
+            "tires": 80,
+            "energy": 240
+          },
+          "energy_units": 210000,
+          "revision": 49,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 96,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ],
+      "bankruptcy_warning": false
+    }
+  },
+  {
+    "source": {
+      "schema": 1,
+      "cursor": 1000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [],
+      "events": [],
+      "ledger": [],
+      "settled": [],
+      "reputation": 10,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [],
+      "event_cursor": 5,
+      "daily": {},
+      "weekly": {},
+      "money": 5000000,
+      "xp": 0,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 0,
+          "wear": {
+            "engine": 0,
+            "brakes": 0,
+            "tires": 0,
+            "energy": 0
+          },
+          "energy_units": 210000,
+          "revision": 0,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 75,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ]
+    },
+    "target": 1020,
+    "expected": {
+      "schema": 1,
+      "cursor": 1020,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [],
+      "events": [],
+      "ledger": [
+        {
+          "id": "assignment-a:1001:ai_fares",
+          "kind": "ai_fares",
+          "amount": 2750,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:ai_fares",
+          "kind": "ai_fares",
+          "amount": 2500,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:ai_fares",
+          "kind": "ai_fares",
+          "amount": 2250,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "mission:daily:0",
+          "kind": "mission_reward",
+          "amount": 2000,
+          "slot": 1012,
+          "route": null
+        },
+        {
+          "id": "assignment-a:1013:ai_fares",
+          "kind": "ai_fares",
+          "amount": 3000,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1016,
+          "route": "21"
+        }
+      ],
+      "settled": [
+        "assignment-a:1001",
+        "assignment-a:1005",
+        "assignment-a:1009",
+        "assignment-a:1013"
+      ],
+      "reputation": 14,
+      "skipped_slots": 0,
+      "claims": [
+        "daily:0"
+      ],
+      "achievements": [
+        "first-dispatch"
+      ],
+      "event_cursor": 5,
+      "daily": {
+        "0": 4
+      },
+      "weekly": {
+        "0": 4
+      },
+      "money": 5011824,
+      "xp": 52,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 1360,
+          "wear": {
+            "engine": 8,
+            "brakes": 8,
+            "tires": 8,
+            "energy": 4
+          },
+          "energy_units": 210000,
+          "revision": 4,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 83,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ],
+      "bankruptcy_warning": false
+    }
+  },
+  {
+    "source": {
+      "schema": 1,
+      "cursor": 1000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [],
+      "events": [],
+      "ledger": [],
+      "settled": [],
+      "reputation": 95,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [],
+      "event_cursor": 5,
+      "daily": {},
+      "weekly": {},
+      "money": 5000000,
+      "xp": 0,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 0,
+          "wear": {
+            "engine": 0,
+            "brakes": 0,
+            "tires": 0,
+            "energy": 0
+          },
+          "energy_units": 210000,
+          "revision": 0,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 75,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ]
+    },
+    "target": 1020,
+    "expected": {
+      "schema": 1,
+      "cursor": 1020,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [],
+      "events": [],
+      "ledger": [
+        {
+          "id": "assignment-a:1001:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7750,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7500,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:ai_fares",
+          "kind": "ai_fares",
+          "amount": 7250,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "mission:daily:0",
+          "kind": "mission_reward",
+          "amount": 2000,
+          "slot": 1012,
+          "route": null
+        },
+        {
+          "id": "assignment-a:1013:ai_fares",
+          "kind": "ai_fares",
+          "amount": 8250,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:energy",
+          "kind": "energy",
+          "amount": -18,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:maintenance",
+          "kind": "maintenance",
+          "amount": -26,
+          "slot": 1016,
+          "route": "21"
+        }
+      ],
+      "settled": [
+        "assignment-a:1001",
+        "assignment-a:1005",
+        "assignment-a:1009",
+        "assignment-a:1013"
+      ],
+      "reputation": 99,
+      "skipped_slots": 0,
+      "claims": [
+        "daily:0"
+      ],
+      "achievements": [
+        "first-dispatch",
+        "trusted-operator"
+      ],
+      "event_cursor": 5,
+      "daily": {
+        "0": 4
+      },
+      "weekly": {
+        "0": 4
+      },
+      "money": 5032074,
+      "xp": 68,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 1360,
+          "wear": {
+            "engine": 8,
+            "brakes": 8,
+            "tires": 8,
+            "energy": 4
+          },
+          "energy_units": 210000,
+          "revision": 4,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 83,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ],
+      "bankruptcy_warning": false
+    }
+  },
+  {
+    "source": {
+      "schema": 1,
+      "cursor": 1000,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [],
+      "events": [],
+      "ledger": [],
+      "settled": [],
+      "reputation": 70,
+      "skipped_slots": 0,
+      "claims": [],
+      "achievements": [],
+      "event_cursor": 5,
+      "daily": {},
+      "weekly": {},
+      "money": 5000000,
+      "xp": 0,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 0,
+          "wear": {
+            "engine": 9000,
+            "brakes": 9000,
+            "tires": 9000,
+            "energy": 9000
+          },
+          "energy_units": 210000,
+          "revision": 0,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 75,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ]
+    },
+    "target": 1020,
+    "expected": {
+      "schema": 1,
+      "cursor": 1020,
+      "assignments": [
+        {
+          "id": "assignment-a",
+          "bus_id": "bus-a",
+          "driver_id": "driver-a",
+          "route_id": "21",
+          "departures": [
+            1001,
+            1005,
+            1009,
+            1013
+          ],
+          "ticket_price": 250,
+          "active": true,
+          "effective_slot": 1000
+        }
+      ],
+      "loans": [],
+      "events": [],
+      "ledger": [
+        {
+          "id": "assignment-a:1001:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6250,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:energy",
+          "kind": "energy",
+          "amount": -25,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1001:maintenance",
+          "kind": "maintenance",
+          "amount": -29,
+          "slot": 1004,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6000,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:energy",
+          "kind": "energy",
+          "amount": -25,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1005:maintenance",
+          "kind": "maintenance",
+          "amount": -29,
+          "slot": 1008,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:ai_fares",
+          "kind": "ai_fares",
+          "amount": 5750,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:energy",
+          "kind": "energy",
+          "amount": -25,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1009:maintenance",
+          "kind": "maintenance",
+          "amount": -29,
+          "slot": 1012,
+          "route": "21"
+        },
+        {
+          "id": "mission:daily:0",
+          "kind": "mission_reward",
+          "amount": 2000,
+          "slot": 1012,
+          "route": null
+        },
+        {
+          "id": "assignment-a:1013:ai_fares",
+          "kind": "ai_fares",
+          "amount": 6750,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:energy",
+          "kind": "energy",
+          "amount": -25,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:wages",
+          "kind": "wages",
+          "amount": -125,
+          "slot": 1016,
+          "route": "21"
+        },
+        {
+          "id": "assignment-a:1013:maintenance",
+          "kind": "maintenance",
+          "amount": -29,
+          "slot": 1016,
+          "route": "21"
+        }
+      ],
+      "settled": [
+        "assignment-a:1001",
+        "assignment-a:1005",
+        "assignment-a:1009",
+        "assignment-a:1013"
+      ],
+      "reputation": 74,
+      "skipped_slots": 0,
+      "claims": [
+        "daily:0"
+      ],
+      "achievements": [
+        "first-dispatch"
+      ],
+      "event_cursor": 5,
+      "daily": {
+        "0": 4
+      },
+      "weekly": {
+        "0": 4
+      },
+      "money": 5026034,
+      "xp": 63,
+      "fleet": [
+        {
+          "id": "bus-a",
+          "model_id": "cb-120",
+          "upgrades": {},
+          "paint": "#217a6d",
+          "damage": 0,
+          "mileage_m": 1360,
+          "wear": {
+            "engine": 9008,
+            "brakes": 9008,
+            "tires": 9008,
+            "energy": 9004
+          },
+          "energy_units": 210000,
+          "revision": 4,
+          "service_due_m": 0,
+          "reserved": false
+        }
+      ],
+      "drivers": [
+        {
+          "id": "driver-a",
+          "template_id": "maya",
+          "name": "Maya",
+          "skills": {
+            "safety": 80,
+            "punctuality": 82,
+            "comfort": 90,
+            "economy": 85
+          },
+          "salary_daily": 20000,
+          "morale": 83,
+          "active": true
+        }
+      ],
+      "terminals": [
+        {
+          "id": "terminal-a",
+          "template_id": "southbank",
+          "name": "Southbank",
+          "capacity": 5
+        }
+      ],
+      "bankruptcy_warning": false
+    }
+  }
+]

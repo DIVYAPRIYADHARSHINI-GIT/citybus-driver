@@ -1,0 +1,35 @@
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: citybus
+      POSTGRES_DB: citybus
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set a random hexadecimal PostgreSQL password}
+    volumes:
+      - citybus-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U citybus -d citybus"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  api:
+    build: .
+    environment:
+      DATABASE_URL: postgresql+psycopg://citybus:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}@db:5432/citybus
+      ENVIRONMENT: production
+      JWT_SECRET: ${JWT_SECRET:?Set a random signing secret of at least 32 characters}
+      COOKIE_SECURE: "true"
+      COOKIE_SAMESITE: ${COOKIE_SAMESITE:-lax}
+      CORS_ORIGINS: ${CORS_ORIGINS:?Set an explicit JSON array of HTTPS browser origins}
+      MULTIPLAYER_SNAPSHOT_HZ: "15"
+      MULTIPLAYER_MAX_CONNECTIONS: "128"
+      MULTIPLAYER_MAX_ROOMS: "32"
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  citybus-postgres:

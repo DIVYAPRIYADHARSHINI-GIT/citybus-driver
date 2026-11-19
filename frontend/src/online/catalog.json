@@ -1,0 +1,2304 @@
+[
+  {
+    "id": "cb-120",
+    "name": "CB 120",
+    "category": "city",
+    "stats": {
+      "power_kw": 204,
+      "capacity": 36,
+      "fuel_tank_l": 260,
+      "comfort": 70,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "mass_kg": 12000,
+        "length_m": 12,
+        "width_m": 2.5,
+        "wheelbase_m": 6,
+        "wheel_radius_m": 0.5,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.4,
+        "efficiency": 0.88,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            360
+          ],
+          [
+            650,
+            650
+          ],
+          [
+            1000,
+            1150
+          ],
+          [
+            1400,
+            1200
+          ],
+          [
+            1800,
+            1080
+          ],
+          [
+            2200,
+            760
+          ],
+          [
+            2400,
+            0
+          ]
+        ]
+      },
+      "physics_status": "cb120-raycast-v1"
+    },
+    "price": 18000000,
+    "required_level": 1,
+    "drive_ready": true
+  },
+  {
+    "id": "sprout-60",
+    "name": "Sprout 60",
+    "category": "mini",
+    "stats": {
+      "power_kw": 90,
+      "capacity": 16,
+      "fuel_tank_l": 85,
+      "comfort": 52,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "sprout-60",
+        "name": "Sprout 60",
+        "category": "mini",
+        "mass_kg": 5800,
+        "length_m": 6.5,
+        "width_m": 2.2,
+        "height_m": 2.9,
+        "power_kw": 90,
+        "tank_l": 85,
+        "capacity": 16,
+        "brake_force_n": 38000,
+        "wheel_radius_m": 0.4,
+        "wheelbase_m": 3.25,
+        "front_length_m": 6.5,
+        "idle_rpm": 750,
+        "redline_rpm": 3000,
+        "final_drive": 4.8,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            500,
+            127
+          ],
+          [
+            812,
+            229
+          ],
+          [
+            1250,
+            406
+          ],
+          [
+            1750,
+            424
+          ],
+          [
+            2250,
+            381
+          ],
+          [
+            2750,
+            268
+          ],
+          [
+            3000,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 36,
+        "cg_offset_m": 0.38,
+        "drag_area_m2": 5.423,
+        "consumption_per_km": 141,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 25,
+        "front_mass_kg": 5800,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.55,
+        "turning_radius_m": 5.3,
+        "cockpit_trim": "#877257"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 3800000,
+    "required_level": 1,
+    "drive_ready": true
+  },
+  {
+    "id": "swift-75",
+    "name": "Swift 75",
+    "category": "mini",
+    "stats": {
+      "power_kw": 110,
+      "capacity": 20,
+      "fuel_tank_l": 100,
+      "comfort": 58,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "swift-75",
+        "name": "Swift 75",
+        "category": "mini",
+        "mass_kg": 6600,
+        "length_m": 7.5,
+        "width_m": 2.3,
+        "height_m": 3.0,
+        "power_kw": 110,
+        "tank_l": 100,
+        "capacity": 20,
+        "brake_force_n": 44000,
+        "wheel_radius_m": 0.42,
+        "wheelbase_m": 3.75,
+        "front_length_m": 7.5,
+        "idle_rpm": 740,
+        "redline_rpm": 2900,
+        "final_drive": 4.9,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            483,
+            161
+          ],
+          [
+            785,
+            290
+          ],
+          [
+            1208,
+            513
+          ],
+          [
+            1692,
+            535
+          ],
+          [
+            2175,
+            482
+          ],
+          [
+            2658,
+            339
+          ],
+          [
+            2900,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 35,
+        "cg_offset_m": 0.4,
+        "drag_area_m2": 5.865,
+        "consumption_per_km": 173,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 25,
+        "front_mass_kg": 6600,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.55,
+        "turning_radius_m": 6.12,
+        "cockpit_trim": "#877257"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 4700000,
+    "required_level": 1,
+    "drive_ready": true
+  },
+  {
+    "id": "loop-80",
+    "name": "Loop 80",
+    "category": "mini",
+    "stats": {
+      "power_kw": 125,
+      "capacity": 24,
+      "fuel_tank_l": 115,
+      "comfort": 62,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "loop-80",
+        "name": "Loop 80",
+        "category": "mini",
+        "mass_kg": 7200,
+        "length_m": 8.0,
+        "width_m": 2.35,
+        "height_m": 3.05,
+        "power_kw": 125,
+        "tank_l": 115,
+        "capacity": 24,
+        "brake_force_n": 48000,
+        "wheel_radius_m": 0.44,
+        "wheelbase_m": 4.0,
+        "front_length_m": 8.0,
+        "idle_rpm": 720,
+        "redline_rpm": 2800,
+        "final_drive": 5.0,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            467,
+            189
+          ],
+          [
+            758,
+            341
+          ],
+          [
+            1167,
+            604
+          ],
+          [
+            1633,
+            630
+          ],
+          [
+            2100,
+            567
+          ],
+          [
+            2567,
+            399
+          ],
+          [
+            2800,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 34,
+        "cg_offset_m": 0.43,
+        "drag_area_m2": 6.092,
+        "consumption_per_km": 196,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 25,
+        "front_mass_kg": 7200,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.55,
+        "turning_radius_m": 6.52,
+        "cockpit_trim": "#877257"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 5900000,
+    "required_level": 2,
+    "drive_ready": true
+  },
+  {
+    "id": "village-85",
+    "name": "Village 85",
+    "category": "mini",
+    "stats": {
+      "power_kw": 135,
+      "capacity": 28,
+      "fuel_tank_l": 130,
+      "comfort": 68,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "village-85",
+        "name": "Village 85",
+        "category": "mini",
+        "mass_kg": 7900,
+        "length_m": 8.5,
+        "width_m": 2.4,
+        "height_m": 3.1,
+        "power_kw": 135,
+        "tank_l": 130,
+        "capacity": 28,
+        "brake_force_n": 53000,
+        "wheel_radius_m": 0.45,
+        "wheelbase_m": 4.25,
+        "front_length_m": 8.5,
+        "idle_rpm": 700,
+        "redline_rpm": 2700,
+        "final_drive": 4.7,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            450,
+            212
+          ],
+          [
+            731,
+            382
+          ],
+          [
+            1125,
+            676
+          ],
+          [
+            1575,
+            706
+          ],
+          [
+            2025,
+            635
+          ],
+          [
+            2475,
+            447
+          ],
+          [
+            2700,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 33,
+        "cg_offset_m": 0.46,
+        "drag_area_m2": 6.324,
+        "consumption_per_km": 212,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 25,
+        "front_mass_kg": 7900,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.55,
+        "turning_radius_m": 6.93,
+        "cockpit_trim": "#877257"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 7200000,
+    "required_level": 2,
+    "drive_ready": true
+  },
+  {
+    "id": "civic-105",
+    "name": "Civic 105",
+    "category": "city",
+    "stats": {
+      "power_kw": 185,
+      "capacity": 32,
+      "fuel_tank_l": 220,
+      "comfort": 68,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "civic-105",
+        "name": "Civic 105",
+        "category": "city",
+        "mass_kg": 10200,
+        "length_m": 10.5,
+        "width_m": 2.5,
+        "height_m": 3.2,
+        "power_kw": 185,
+        "tank_l": 220,
+        "capacity": 32,
+        "brake_force_n": 71000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 5.25,
+        "front_length_m": 10.5,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.4,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            326
+          ],
+          [
+            650,
+            589
+          ],
+          [
+            1000,
+            1043
+          ],
+          [
+            1400,
+            1088
+          ],
+          [
+            1800,
+            979
+          ],
+          [
+            2200,
+            689
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 34,
+        "cg_offset_m": 0.52,
+        "drag_area_m2": 6.8,
+        "consumption_per_km": 290,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 10200,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 10.08,
+        "cockpit_trim": "#426d67"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 14500000,
+    "required_level": 2,
+    "drive_ready": true
+  },
+  {
+    "id": "avenue-125",
+    "name": "Avenue 125",
+    "category": "city",
+    "stats": {
+      "power_kw": 225,
+      "capacity": 44,
+      "fuel_tank_l": 280,
+      "comfort": 76,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "avenue-125",
+        "name": "Avenue 125",
+        "category": "city",
+        "mass_kg": 12600,
+        "length_m": 12.5,
+        "width_m": 2.5,
+        "height_m": 3.3,
+        "power_kw": 225,
+        "tank_l": 280,
+        "capacity": 44,
+        "brake_force_n": 83000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.25,
+        "front_length_m": 12.5,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.3,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            397
+          ],
+          [
+            650,
+            717
+          ],
+          [
+            1000,
+            1268
+          ],
+          [
+            1400,
+            1324
+          ],
+          [
+            1800,
+            1191
+          ],
+          [
+            2200,
+            838
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 33,
+        "cg_offset_m": 0.6,
+        "drag_area_m2": 7.013,
+        "consumption_per_km": 353,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 12600,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 12.01,
+        "cockpit_trim": "#426d67"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 21000000,
+    "required_level": 3,
+    "drive_ready": true
+  },
+  {
+    "id": "metro-130",
+    "name": "Metro 130",
+    "category": "city",
+    "stats": {
+      "power_kw": 245,
+      "capacity": 52,
+      "fuel_tank_l": 300,
+      "comfort": 78,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "metro-130",
+        "name": "Metro 130",
+        "category": "city",
+        "mass_kg": 13300,
+        "length_m": 13,
+        "width_m": 2.55,
+        "height_m": 3.4,
+        "power_kw": 245,
+        "tank_l": 300,
+        "capacity": 52,
+        "brake_force_n": 88000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.5,
+        "front_length_m": 13,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.2,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            432
+          ],
+          [
+            650,
+            781
+          ],
+          [
+            1000,
+            1381
+          ],
+          [
+            1400,
+            1441
+          ],
+          [
+            1800,
+            1297
+          ],
+          [
+            2200,
+            913
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 34,
+        "cg_offset_m": 0.62,
+        "drag_area_m2": 7.369,
+        "consumption_per_km": 384,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 13300,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 12.49,
+        "cockpit_trim": "#426d67"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 23500000,
+    "required_level": 3,
+    "drive_ready": true
+  },
+  {
+    "id": "link-180",
+    "name": "Link 180",
+    "category": "articulated",
+    "stats": {
+      "power_kw": 260,
+      "capacity": 80,
+      "fuel_tank_l": 360,
+      "comfort": 70,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "link-180",
+        "name": "Link 180",
+        "category": "articulated",
+        "mass_kg": 18000,
+        "length_m": 18,
+        "width_m": 2.5,
+        "height_m": 3.3,
+        "power_kw": 260,
+        "tank_l": 360,
+        "capacity": 80,
+        "brake_force_n": 114000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 5.4,
+        "front_length_m": 10.8,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.4,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            459
+          ],
+          [
+            650,
+            828
+          ],
+          [
+            1000,
+            1466
+          ],
+          [
+            1400,
+            1529
+          ],
+          [
+            1800,
+            1376
+          ],
+          [
+            2200,
+            969
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 34,
+        "cg_offset_m": 0.6,
+        "drag_area_m2": 7.013,
+        "consumption_per_km": 408,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 11000,
+        "rear_mass_kg": 7000,
+        "rear_length_m": 7.2,
+        "max_articulation_rad": 0.75,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 10.37,
+        "cockpit_trim": "#655879"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 28500000,
+    "required_level": 4,
+    "drive_ready": true
+  },
+  {
+    "id": "flex-185",
+    "name": "Flex 185",
+    "category": "articulated",
+    "stats": {
+      "power_kw": 280,
+      "capacity": 88,
+      "fuel_tank_l": 380,
+      "comfort": 76,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "flex-185",
+        "name": "Flex 185",
+        "category": "articulated",
+        "mass_kg": 18800,
+        "length_m": 18.5,
+        "width_m": 2.5,
+        "height_m": 3.35,
+        "power_kw": 280,
+        "tank_l": 380,
+        "capacity": 88,
+        "brake_force_n": 119000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 5.55,
+        "front_length_m": 11.1,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.3,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            494
+          ],
+          [
+            650,
+            892
+          ],
+          [
+            1000,
+            1578
+          ],
+          [
+            1400,
+            1647
+          ],
+          [
+            1800,
+            1482
+          ],
+          [
+            2200,
+            1043
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 35,
+        "cg_offset_m": 0.62,
+        "drag_area_m2": 7.119,
+        "consumption_per_km": 439,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 11468,
+        "rear_mass_kg": 7332,
+        "rear_length_m": 7.4,
+        "max_articulation_rad": 0.72,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 10.66,
+        "cockpit_trim": "#655879"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 31500000,
+    "required_level": 4,
+    "drive_ready": true
+  },
+  {
+    "id": "union-190",
+    "name": "Union 190",
+    "category": "articulated",
+    "stats": {
+      "power_kw": 300,
+      "capacity": 96,
+      "fuel_tank_l": 400,
+      "comfort": 80,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "union-190",
+        "name": "Union 190",
+        "category": "articulated",
+        "mass_kg": 19800,
+        "length_m": 19,
+        "width_m": 2.55,
+        "height_m": 3.4,
+        "power_kw": 300,
+        "tank_l": 400,
+        "capacity": 96,
+        "brake_force_n": 126000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 5.7,
+        "front_length_m": 11.4,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.2,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            529
+          ],
+          [
+            650,
+            956
+          ],
+          [
+            1000,
+            1691
+          ],
+          [
+            1400,
+            1765
+          ],
+          [
+            1800,
+            1588
+          ],
+          [
+            2200,
+            1118
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 36,
+        "cg_offset_m": 0.64,
+        "drag_area_m2": 7.369,
+        "consumption_per_km": 471,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 12078,
+        "rear_mass_kg": 7722,
+        "rear_length_m": 7.6,
+        "max_articulation_rad": 0.72,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 10.95,
+        "cockpit_trim": "#655879"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 34500000,
+    "required_level": 5,
+    "drive_ready": true
+  },
+  {
+    "id": "ribbon-210",
+    "name": "Ribbon 210",
+    "category": "articulated",
+    "stats": {
+      "power_kw": 330,
+      "capacity": 110,
+      "fuel_tank_l": 450,
+      "comfort": 82,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "ribbon-210",
+        "name": "Ribbon 210",
+        "category": "articulated",
+        "mass_kg": 22000,
+        "length_m": 21,
+        "width_m": 2.55,
+        "height_m": 3.45,
+        "power_kw": 330,
+        "tank_l": 450,
+        "capacity": 110,
+        "brake_force_n": 140000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.3,
+        "front_length_m": 12.6,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.1,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            582
+          ],
+          [
+            650,
+            1051
+          ],
+          [
+            1000,
+            1860
+          ],
+          [
+            1400,
+            1941
+          ],
+          [
+            1800,
+            1747
+          ],
+          [
+            2200,
+            1229
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 37,
+        "cg_offset_m": 0.65,
+        "drag_area_m2": 7.478,
+        "consumption_per_km": 518,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 13420,
+        "rear_mass_kg": 8580,
+        "rear_length_m": 8.4,
+        "max_articulation_rad": 0.72,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 12.1,
+        "cockpit_trim": "#655879"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 39500000,
+    "required_level": 6,
+    "drive_ready": true
+  },
+  {
+    "id": "vista-120",
+    "name": "Vista 120",
+    "category": "coach",
+    "stats": {
+      "power_kw": 250,
+      "capacity": 45,
+      "fuel_tank_l": 400,
+      "comfort": 82,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "vista-120",
+        "name": "Vista 120",
+        "category": "coach",
+        "mass_kg": 13800,
+        "length_m": 12,
+        "width_m": 2.55,
+        "height_m": 3.65,
+        "power_kw": 250,
+        "tank_l": 400,
+        "capacity": 45,
+        "brake_force_n": 90000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.0,
+        "front_length_m": 12,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 4.4,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            441
+          ],
+          [
+            650,
+            797
+          ],
+          [
+            1000,
+            1409
+          ],
+          [
+            1400,
+            1471
+          ],
+          [
+            1800,
+            1324
+          ],
+          [
+            2200,
+            931
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 28,
+        "cg_offset_m": 0.83,
+        "drag_area_m2": 7.911,
+        "consumption_per_km": 392,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 13800,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.46,
+        "turning_radius_m": 12.11,
+        "cockpit_trim": "#68564c"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 23000000,
+    "required_level": 3,
+    "drive_ready": true
+  },
+  {
+    "id": "horizon-130",
+    "name": "Horizon 130",
+    "category": "coach",
+    "stats": {
+      "power_kw": 280,
+      "capacity": 49,
+      "fuel_tank_l": 450,
+      "comfort": 88,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "horizon-130",
+        "name": "Horizon 130",
+        "category": "coach",
+        "mass_kg": 14700,
+        "length_m": 13,
+        "width_m": 2.55,
+        "height_m": 3.7,
+        "power_kw": 280,
+        "tank_l": 450,
+        "capacity": 49,
+        "brake_force_n": 96000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.5,
+        "front_length_m": 13,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 4.3,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            494
+          ],
+          [
+            650,
+            892
+          ],
+          [
+            1000,
+            1578
+          ],
+          [
+            1400,
+            1647
+          ],
+          [
+            1800,
+            1482
+          ],
+          [
+            2200,
+            1043
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 29,
+        "cg_offset_m": 0.85,
+        "drag_area_m2": 8.02,
+        "consumption_per_km": 439,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 14700,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.46,
+        "turning_radius_m": 13.12,
+        "cockpit_trim": "#68564c"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 28500000,
+    "required_level": 4,
+    "drive_ready": true
+  },
+  {
+    "id": "voyager-135",
+    "name": "Voyager 135",
+    "category": "coach",
+    "stats": {
+      "power_kw": 310,
+      "capacity": 53,
+      "fuel_tank_l": 500,
+      "comfort": 92,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "voyager-135",
+        "name": "Voyager 135",
+        "category": "coach",
+        "mass_kg": 15500,
+        "length_m": 13.5,
+        "width_m": 2.55,
+        "height_m": 3.75,
+        "power_kw": 310,
+        "tank_l": 500,
+        "capacity": 53,
+        "brake_force_n": 101000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.75,
+        "front_length_m": 13.5,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 4.2,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            547
+          ],
+          [
+            650,
+            988
+          ],
+          [
+            1000,
+            1748
+          ],
+          [
+            1400,
+            1824
+          ],
+          [
+            1800,
+            1641
+          ],
+          [
+            2200,
+            1155
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 30,
+        "cg_offset_m": 0.87,
+        "drag_area_m2": 8.128,
+        "consumption_per_km": 486,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 15500,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.46,
+        "turning_radius_m": 13.62,
+        "cockpit_trim": "#68564c"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 33500000,
+    "required_level": 5,
+    "drive_ready": true
+  },
+  {
+    "id": "continental-140",
+    "name": "Continental 140",
+    "category": "coach",
+    "stats": {
+      "power_kw": 340,
+      "capacity": 57,
+      "fuel_tank_l": 540,
+      "comfort": 96,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "continental-140",
+        "name": "Continental 140",
+        "category": "coach",
+        "mass_kg": 16300,
+        "length_m": 14,
+        "width_m": 2.55,
+        "height_m": 3.8,
+        "power_kw": 340,
+        "tank_l": 540,
+        "capacity": 57,
+        "brake_force_n": 107000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 7.0,
+        "front_length_m": 14,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 4.1,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            600
+          ],
+          [
+            650,
+            1083
+          ],
+          [
+            1000,
+            1917
+          ],
+          [
+            1400,
+            2000
+          ],
+          [
+            1800,
+            1800
+          ],
+          [
+            2200,
+            1267
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 31,
+        "cg_offset_m": 0.89,
+        "drag_area_m2": 8.236,
+        "consumption_per_km": 533,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 27,
+        "front_mass_kg": 16300,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.46,
+        "turning_radius_m": 14.13,
+        "cockpit_trim": "#68564c"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 39000000,
+    "required_level": 6,
+    "drive_ready": true
+  },
+  {
+    "id": "skyline-110",
+    "name": "Skyline 110",
+    "category": "double-decker",
+    "stats": {
+      "power_kw": 225,
+      "capacity": 65,
+      "fuel_tank_l": 300,
+      "comfort": 72,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "skyline-110",
+        "name": "Skyline 110",
+        "category": "double-decker",
+        "mass_kg": 15000,
+        "length_m": 11,
+        "width_m": 2.55,
+        "height_m": 4.3,
+        "power_kw": 225,
+        "tank_l": 300,
+        "capacity": 65,
+        "brake_force_n": 96000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 5.5,
+        "front_length_m": 11,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.4,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            397
+          ],
+          [
+            650,
+            717
+          ],
+          [
+            1000,
+            1268
+          ],
+          [
+            1400,
+            1324
+          ],
+          [
+            1800,
+            1191
+          ],
+          [
+            2200,
+            838
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 30,
+        "cg_offset_m": 1.1,
+        "drag_area_m2": 9.32,
+        "consumption_per_km": 353,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 25,
+        "front_mass_kg": 15000,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 10.56,
+        "cockpit_trim": "#536680"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 26000000,
+    "required_level": 4,
+    "drive_ready": true
+  },
+  {
+    "id": "summit-120",
+    "name": "Summit 120",
+    "category": "double-decker",
+    "stats": {
+      "power_kw": 260,
+      "capacity": 76,
+      "fuel_tank_l": 340,
+      "comfort": 78,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "summit-120",
+        "name": "Summit 120",
+        "category": "double-decker",
+        "mass_kg": 16400,
+        "length_m": 12,
+        "width_m": 2.55,
+        "height_m": 4.35,
+        "power_kw": 260,
+        "tank_l": 340,
+        "capacity": 76,
+        "brake_force_n": 106000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.0,
+        "front_length_m": 12,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.3,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            459
+          ],
+          [
+            650,
+            828
+          ],
+          [
+            1000,
+            1466
+          ],
+          [
+            1400,
+            1529
+          ],
+          [
+            1800,
+            1376
+          ],
+          [
+            2200,
+            969
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 31,
+        "cg_offset_m": 1.12,
+        "drag_area_m2": 9.429,
+        "consumption_per_km": 408,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 25,
+        "front_mass_kg": 16400,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 11.52,
+        "cockpit_trim": "#536680"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 30000000,
+    "required_level": 4,
+    "drive_ready": true
+  },
+  {
+    "id": "panorama-125",
+    "name": "Panorama 125",
+    "category": "double-decker",
+    "stats": {
+      "power_kw": 280,
+      "capacity": 84,
+      "fuel_tank_l": 370,
+      "comfort": 85,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "panorama-125",
+        "name": "Panorama 125",
+        "category": "double-decker",
+        "mass_kg": 17200,
+        "length_m": 12.5,
+        "width_m": 2.55,
+        "height_m": 4.4,
+        "power_kw": 280,
+        "tank_l": 370,
+        "capacity": 84,
+        "brake_force_n": 112000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.25,
+        "front_length_m": 12.5,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.2,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            494
+          ],
+          [
+            650,
+            892
+          ],
+          [
+            1000,
+            1578
+          ],
+          [
+            1400,
+            1647
+          ],
+          [
+            1800,
+            1482
+          ],
+          [
+            2200,
+            1043
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 32,
+        "cg_offset_m": 1.14,
+        "drag_area_m2": 9.537,
+        "consumption_per_km": 439,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 25,
+        "front_mass_kg": 17200,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 12.01,
+        "cockpit_trim": "#536680"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 34500000,
+    "required_level": 5,
+    "drive_ready": true
+  },
+  {
+    "id": "crown-130",
+    "name": "Crown 130",
+    "category": "double-decker",
+    "stats": {
+      "power_kw": 310,
+      "capacity": 92,
+      "fuel_tank_l": 400,
+      "comfort": 90,
+      "energy": "diesel",
+      "battery_kwh": null,
+      "physics_profile": {
+        "id": "crown-130",
+        "name": "Crown 130",
+        "category": "double-decker",
+        "mass_kg": 18400,
+        "length_m": 13,
+        "width_m": 2.55,
+        "height_m": 4.45,
+        "power_kw": 310,
+        "tank_l": 400,
+        "capacity": 92,
+        "brake_force_n": 120000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.5,
+        "front_length_m": 13,
+        "idle_rpm": 650,
+        "redline_rpm": 2400,
+        "final_drive": 5.1,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            400,
+            547
+          ],
+          [
+            650,
+            988
+          ],
+          [
+            1000,
+            1748
+          ],
+          [
+            1400,
+            1824
+          ],
+          [
+            1800,
+            1641
+          ],
+          [
+            2200,
+            1155
+          ],
+          [
+            2400,
+            0
+          ]
+        ],
+        "battery_kwh": 0,
+        "energy": "diesel",
+        "suspension": 33,
+        "cg_offset_m": 1.16,
+        "drag_area_m2": 9.645,
+        "consumption_per_km": 486,
+        "consumption_unit": "ml/km",
+        "motor_torque_nm": 0,
+        "motor_ratio": 0,
+        "regen_force_n": 0,
+        "max_speed_mps": 25,
+        "front_mass_kg": 18400,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 12.49,
+        "cockpit_trim": "#536680"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 39500000,
+    "required_level": 6,
+    "drive_ready": true
+  },
+  {
+    "id": "leaf-e80",
+    "name": "Leaf E80",
+    "category": "electric",
+    "stats": {
+      "power_kw": 150,
+      "capacity": 24,
+      "fuel_tank_l": 0,
+      "comfort": 76,
+      "energy": "electric",
+      "battery_kwh": 296,
+      "physics_profile": {
+        "id": "leaf-e80",
+        "name": "Leaf E80",
+        "category": "electric",
+        "mass_kg": 9500,
+        "length_m": 8,
+        "width_m": 2.4,
+        "height_m": 3.2,
+        "power_kw": 150,
+        "tank_l": 0,
+        "capacity": 24,
+        "brake_force_n": 69000,
+        "wheel_radius_m": 0.46,
+        "wheelbase_m": 4.0,
+        "front_length_m": 8,
+        "idle_rpm": 0,
+        "redline_rpm": 11000,
+        "final_drive": 5.4,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            1833,
+            58
+          ],
+          [
+            2979,
+            104
+          ],
+          [
+            4583,
+            184
+          ],
+          [
+            6417,
+            193
+          ],
+          [
+            8250,
+            173
+          ],
+          [
+            10083,
+            122
+          ],
+          [
+            11000,
+            0
+          ]
+        ],
+        "battery_kwh": 296,
+        "energy": "electric",
+        "suspension": 38,
+        "cg_offset_m": 0.38,
+        "drag_area_m2": 6.528,
+        "consumption_per_km": 1250,
+        "consumption_unit": "Wh/km",
+        "motor_torque_nm": 650,
+        "motor_ratio": 10,
+        "regen_force_n": 14000,
+        "max_speed_mps": 27,
+        "front_mass_kg": 9500,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 7.68,
+        "cockpit_trim": "#326f79"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 18000000,
+    "required_level": 3,
+    "drive_ready": true
+  },
+  {
+    "id": "pulse-e120",
+    "name": "Pulse E120",
+    "category": "electric",
+    "stats": {
+      "power_kw": 240,
+      "capacity": 44,
+      "fuel_tank_l": 0,
+      "comfort": 85,
+      "energy": "electric",
+      "battery_kwh": 376,
+      "physics_profile": {
+        "id": "pulse-e120",
+        "name": "Pulse E120",
+        "category": "electric",
+        "mass_kg": 14200,
+        "length_m": 12,
+        "width_m": 2.5,
+        "height_m": 3.3,
+        "power_kw": 240,
+        "tank_l": 0,
+        "capacity": 44,
+        "brake_force_n": 94000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.0,
+        "front_length_m": 12,
+        "idle_rpm": 0,
+        "redline_rpm": 12000,
+        "final_drive": 5.4,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            2000,
+            85
+          ],
+          [
+            3250,
+            153
+          ],
+          [
+            5000,
+            271
+          ],
+          [
+            7000,
+            282
+          ],
+          [
+            9000,
+            254
+          ],
+          [
+            11000,
+            179
+          ],
+          [
+            12000,
+            0
+          ]
+        ],
+        "battery_kwh": 376,
+        "energy": "electric",
+        "suspension": 39,
+        "cg_offset_m": 0.42,
+        "drag_area_m2": 7.013,
+        "consumption_per_km": 1633,
+        "consumption_unit": "Wh/km",
+        "motor_torque_nm": 1032,
+        "motor_ratio": 9.4,
+        "regen_force_n": 19880,
+        "max_speed_mps": 27,
+        "front_mass_kg": 14200,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 11.52,
+        "cockpit_trim": "#326f79"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 34000000,
+    "required_level": 4,
+    "drive_ready": true
+  },
+  {
+    "id": "current-e130",
+    "name": "Current E130",
+    "category": "electric",
+    "stats": {
+      "power_kw": 280,
+      "capacity": 54,
+      "fuel_tank_l": 0,
+      "comfort": 89,
+      "energy": "electric",
+      "battery_kwh": 416,
+      "physics_profile": {
+        "id": "current-e130",
+        "name": "Current E130",
+        "category": "electric",
+        "mass_kg": 15600,
+        "length_m": 13,
+        "width_m": 2.55,
+        "height_m": 3.35,
+        "power_kw": 280,
+        "tank_l": 0,
+        "capacity": 54,
+        "brake_force_n": 104000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 6.5,
+        "front_length_m": 13,
+        "idle_rpm": 0,
+        "redline_rpm": 12500,
+        "final_drive": 5.4,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            2083,
+            95
+          ],
+          [
+            3385,
+            171
+          ],
+          [
+            5208,
+            303
+          ],
+          [
+            7292,
+            316
+          ],
+          [
+            9375,
+            285
+          ],
+          [
+            11458,
+            200
+          ],
+          [
+            12500,
+            0
+          ]
+        ],
+        "battery_kwh": 416,
+        "energy": "electric",
+        "suspension": 40,
+        "cg_offset_m": 0.44,
+        "drag_area_m2": 7.261,
+        "consumption_per_km": 1794,
+        "consumption_unit": "Wh/km",
+        "motor_torque_nm": 1204,
+        "motor_ratio": 9.4,
+        "regen_force_n": 21840,
+        "max_speed_mps": 27,
+        "front_mass_kg": 15600,
+        "rear_mass_kg": 0,
+        "rear_length_m": 0,
+        "max_articulation_rad": 0,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 12.49,
+        "cockpit_trim": "#326f79"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 39000000,
+    "required_level": 5,
+    "drive_ready": true
+  },
+  {
+    "id": "aurora-e180",
+    "name": "Aurora E180",
+    "category": "electric",
+    "stats": {
+      "power_kw": 360,
+      "capacity": 84,
+      "fuel_tank_l": 0,
+      "comfort": 92,
+      "energy": "electric",
+      "battery_kwh": 536,
+      "physics_profile": {
+        "id": "aurora-e180",
+        "name": "Aurora E180",
+        "category": "electric",
+        "mass_kg": 21400,
+        "length_m": 18,
+        "width_m": 2.55,
+        "height_m": 3.4,
+        "power_kw": 360,
+        "tank_l": 0,
+        "capacity": 84,
+        "brake_force_n": 138000,
+        "wheel_radius_m": 0.5,
+        "wheelbase_m": 5.4,
+        "front_length_m": 10.8,
+        "idle_rpm": 0,
+        "redline_rpm": 13000,
+        "final_drive": 5.4,
+        "gear_ratios": [
+          3.6,
+          2.1,
+          1.42,
+          1,
+          0.74,
+          0.61
+        ],
+        "reverse_ratio": 4.1,
+        "torque_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            2167,
+            117
+          ],
+          [
+            3521,
+            212
+          ],
+          [
+            5417,
+            375
+          ],
+          [
+            7583,
+            391
+          ],
+          [
+            9750,
+            352
+          ],
+          [
+            11917,
+            248
+          ],
+          [
+            13000,
+            0
+          ]
+        ],
+        "battery_kwh": 536,
+        "energy": "electric",
+        "suspension": 40,
+        "cg_offset_m": 0.48,
+        "drag_area_m2": 7.369,
+        "consumption_per_km": 2461,
+        "consumption_unit": "Wh/km",
+        "motor_torque_nm": 1548,
+        "motor_ratio": 9.4,
+        "regen_force_n": 29960,
+        "max_speed_mps": 27,
+        "front_mass_kg": 13054,
+        "rear_mass_kg": 8346,
+        "rear_length_m": 7.2,
+        "max_articulation_rad": 0.72,
+        "steer_angle_rad": 0.48,
+        "turning_radius_m": 10.37,
+        "cockpit_trim": "#326f79"
+      },
+      "physics_status": "fleet-raycast-v2"
+    },
+    "price": 49500000,
+    "required_level": 6,
+    "drive_ready": true
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "tick_seconds": 60,
+  "catchup_slots": 1440,
+  "slots_per_day": 1440,
+  "fuel_cents_per_litre": 180,
+  "energy_cents_per_kwh": 28,
+  "training_cost": 15000,
+  "hire_cost": 35000,
+  "loan_daily_bps": 12,
+  "loan_limit": 2000000,
+  "loan_min": 100000,
+  "reputation_start": 70,
+  "upgrades": {
+    "engine": 18000,
+    "brakes": 12000,
+    "suspension": 15000,
+    "tires": 9000,
+    "seats": 11000,
+    "paint": 3000,
+    "interior": 6000
+  },
+  "wear_repair_cents_per_bp": {
+    "engine": 12,
+    "brakes": 7,
+    "tires": 5,
+    "energy": 14
+  },
+  "routes": {
+    "21": {
+      "id": "21",
+      "name": "Library Local",
+      "meters": 340,
+      "duration_slots": 3,
+      "stops": 3,
+      "level": 1,
+      "toll_cents": 0
+    },
+    "36": {
+      "id": "36",
+      "name": "Civic Circle",
+      "meters": 1600,
+      "duration_slots": 7,
+      "stops": 6,
+      "level": 2,
+      "toll_cents": 0
+    },
+    "80": {
+      "id": "80",
+      "name": "River Express",
+      "meters": 1850,
+      "duration_slots": 8,
+      "stops": 4,
+      "level": 3,
+      "toll_cents": 0
+    },
+    "M1": {
+      "id": "M1",
+      "name": "Metropolitan Spine",
+      "meters": 800,
+      "duration_slots": 8,
+      "level": 2,
+      "map_id": "meridian",
+      "stops": 5,
+      "toll_cents": 0
+    },
+    "M2": {
+      "id": "M2",
+      "name": "Arts & Gardens",
+      "meters": 740,
+      "duration_slots": 7,
+      "level": 3,
+      "map_id": "meridian",
+      "stops": 4,
+      "toll_cents": 250
+    },
+    "H1": {
+      "id": "H1",
+      "name": "North Coast Express",
+      "meters": 940,
+      "duration_slots": 6,
+      "level": 2,
+      "map_id": "coastway",
+      "stops": 3,
+      "toll_cents": 250
+    },
+    "H2": {
+      "id": "H2",
+      "name": "Coastal Connector",
+      "meters": 3200,
+      "duration_slots": 12,
+      "level": 3,
+      "map_id": "coastway",
+      "stops": 4,
+      "toll_cents": 250
+    }
+  },
+  "event_kinds": [
+    "fuel-spike",
+    "strike",
+    "festival",
+    "weather",
+    "quit",
+    "recall"
+  ]
+}

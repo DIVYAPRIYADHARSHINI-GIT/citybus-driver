@@ -1,0 +1,44 @@
+{
+  "name": "citybus-driver",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:e2e": "node tests/e2e.mjs",
+    "test:city": "vitest run tests/city.test.ts",
+    "test:e2e:city": "node tests/city-e2e.mjs",
+    "test:e2e:roadside": "node tests/city-roadside.mjs",
+    "test:online": "vitest run tests/online.test.ts",
+    "test:e2e:online": "node tests/online-e2e.mjs",
+    "test:tycoon": "vitest run tests/tycoon.test.ts tests/tycoon-client.test.ts",
+    "test:e2e:tycoon": "node tests/tycoon-e2e.mjs",
+    "test:e2e:fleet": "node tests/fleet-e2e.mjs",
+    "test:multiplayer": "vitest run tests/multiplayer.test.ts",
+    "test:e2e:multiplayer": "node tests/multiplayer-e2e.mjs",
+    "test:e2e:stage6": "node tests/stage6-e2e.mjs",
+    "test:e2e:regions-online": "node tests/stage6-multiplayer.mjs",
+    "test:e2e:all": "node tests/run-browser-suites.mjs",
+    "test:route-matrix": "node tests/run-matrix.mjs",
+    "test:endurance": "node --expose-gc tests/run-endurance.mjs",
+    "test:rendered-soak": "node tests/rendered-soak.mjs",
+    "test:e2e:landscape": "node tests/landscape-e2e.mjs",
+    "test:e2e:polish": "node tests/final-smoke.mjs",
+    "test:deployment": "vitest run tests/deployment.test.ts",
+    "test:e2e:deployment": "node tests/deployment-e2e.mjs"
+  },
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.187.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^4.0.18",
+    "puppeteer": "^25.16.0"
+  }
+}

@@ -1,0 +1,40 @@
+# Local defaults. Copy to .env only for development; never commit real .env files.
+ENVIRONMENT=development
+DATABASE_URL=sqlite:///./.local/citybus.db
+# Production: use the managed PostgreSQL URL in the host's secret environment UI.
+# postgres:// and postgresql:// URLs are normalized to SQLAlchemy's psycopg driver.
+# DATABASE_URL=postgresql+psycopg://USER:PASSWORD@HOST/DATABASE
+# Preserve provider-required TLS/query parameters, especially for external access.
+
+# Required outside development. No public/shared signing secret is shipped.
+# Generate locally and paste ONLY into the backend host's secret environment:
+# python -c "import secrets; print(secrets.token_urlsafe(48))"
+# JWT_SECRET=
+
+# Exact origins: scheme + host + optional port; no paths, wildcards or trailing /.
+CORS_ORIGINS=["http://127.0.0.1:4173","http://localhost:4173","http://127.0.0.1:5173","http://localhost:5173"]
+# Production example: CORS_ORIGINS=["https://app.example.com"]
+COOKIE_SECURE=false
+COOKIE_SAMESITE=lax
+# Production requires COOKIE_SECURE=true and HTTPS CORS origins.
+# Same-site custom domains (app.example.com + api.example.com): keep lax.
+# Different sites (project.vercel.app + service.onrender.com): use none + secure.
+# Browser third-party-cookie blocking can STILL prevent cross-site refresh.
+
+ACCESS_TOKEN_SECONDS=600
+REFRESH_TOKEN_SECONDS=2592000
+RATE_LIMIT_PER_MINUTE=240
+LOGIN_ATTEMPTS=5
+LOGIN_LOCK_SECONDS=300
+MULTIPLAYER_MAX_ROOMS=32
+MULTIPLAYER_MAX_CONNECTIONS=128
+MULTIPLAYER_SNAPSHOT_HZ=15
+MULTIPLAYER_IDLE_SECONDS=1800
+
+# Native host settings (not read by the app; the host/Uvicorn use these):
+# PYTHON_VERSION=3.11.15
+# PORT=10000
+# FORWARDED_ALLOW_IPS=127.0.0.1
+# Trust only your host's documented proxy IPs/ranges. Use * only when direct
+# untrusted access to the app socket is impossible and proxy headers are sanitized.
+# Run exactly one Uvicorn worker and one service instance; never use --reload live.

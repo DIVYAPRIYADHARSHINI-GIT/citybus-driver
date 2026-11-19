@@ -1,0 +1,702 @@
+{
+  "maps": [
+    {
+      "id": "northbank",
+      "name": "Northbank City",
+      "kind": "city",
+      "description": "The original riverside district. Learn the rhythm of the road.",
+      "bounds": [
+        -310,
+        -455,
+        620,
+        760
+      ],
+      "nodes": [],
+      "roads": [],
+      "stops": [],
+      "routes": [],
+      "landmarks": []
+    },
+    {
+      "id": "meridian",
+      "name": "Meridian Metropolis",
+      "kind": "city",
+      "description": "A connected metropolitan grid, civic avenues and the Northbank historic district.",
+      "bounds": [
+        -310,
+        -800,
+        1600,
+        1110
+      ],
+      "nodes": [
+        {
+          "id": "M00",
+          "x": 480,
+          "z": 240,
+          "signal": true
+        },
+        {
+          "id": "M01",
+          "x": 480,
+          "z": 0,
+          "signal": true
+        },
+        {
+          "id": "M02",
+          "x": 480,
+          "z": -240,
+          "signal": true
+        },
+        {
+          "id": "M03",
+          "x": 480,
+          "z": -480,
+          "signal": true
+        },
+        {
+          "id": "M04",
+          "x": 480,
+          "z": -720,
+          "signal": true
+        },
+        {
+          "id": "M10",
+          "x": 720,
+          "z": 240,
+          "signal": true
+        },
+        {
+          "id": "M11",
+          "x": 720,
+          "z": 0,
+          "signal": true
+        },
+        {
+          "id": "M12",
+          "x": 720,
+          "z": -240,
+          "signal": true
+        },
+        {
+          "id": "M13",
+          "x": 720,
+          "z": -480,
+          "signal": true
+        },
+        {
+          "id": "M14",
+          "x": 720,
+          "z": -720,
+          "signal": true
+        },
+        {
+          "id": "M20",
+          "x": 960,
+          "z": 240,
+          "signal": true
+        },
+        {
+          "id": "M21",
+          "x": 960,
+          "z": 0,
+          "signal": true
+        },
+        {
+          "id": "M22",
+          "x": 960,
+          "z": -240,
+          "signal": true
+        },
+        {
+          "id": "M23",
+          "x": 960,
+          "z": -480,
+          "signal": true
+        },
+        {
+          "id": "M24",
+          "x": 960,
+          "z": -720,
+          "signal": true
+        },
+        {
+          "id": "M30",
+          "x": 1200,
+          "z": 240,
+          "signal": true
+        },
+        {
+          "id": "M31",
+          "x": 1200,
+          "z": 0,
+          "signal": true
+        },
+        {
+          "id": "M32",
+          "x": 1200,
+          "z": -240,
+          "signal": true
+        },
+        {
+          "id": "M33",
+          "x": 1200,
+          "z": -480,
+          "signal": true
+        },
+        {
+          "id": "M34",
+          "x": 1200,
+          "z": -720,
+          "signal": true
+        }
+      ],
+      "roads": [
+        [
+          "M00",
+          "M01",
+          false
+        ],
+        [
+          "M01",
+          "M02",
+          false
+        ],
+        [
+          "M02",
+          "M03",
+          false
+        ],
+        [
+          "M03",
+          "M04",
+          false
+        ],
+        [
+          "M00",
+          "M10",
+          false
+        ],
+        [
+          "M10",
+          "M11",
+          false
+        ],
+        [
+          "M01",
+          "M11",
+          false
+        ],
+        [
+          "M11",
+          "M12",
+          false
+        ],
+        [
+          "M02",
+          "M12",
+          false
+        ],
+        [
+          "M12",
+          "M13",
+          false
+        ],
+        [
+          "M03",
+          "M13",
+          false
+        ],
+        [
+          "M13",
+          "M14",
+          false
+        ],
+        [
+          "M04",
+          "M14",
+          false
+        ],
+        [
+          "M10",
+          "M20",
+          false
+        ],
+        [
+          "M20",
+          "M21",
+          false
+        ],
+        [
+          "M11",
+          "M21",
+          false
+        ],
+        [
+          "M21",
+          "M22",
+          false
+        ],
+        [
+          "M12",
+          "M22",
+          false
+        ],
+        [
+          "M22",
+          "M23",
+          false
+        ],
+        [
+          "M13",
+          "M23",
+          false
+        ],
+        [
+          "M23",
+          "M24",
+          false
+        ],
+        [
+          "M14",
+          "M24",
+          false
+        ],
+        [
+          "M20",
+          "M30",
+          false
+        ],
+        [
+          "M30",
+          "M31",
+          false
+        ],
+        [
+          "M21",
+          "M31",
+          false
+        ],
+        [
+          "M31",
+          "M32",
+          false
+        ],
+        [
+          "M22",
+          "M32",
+          false
+        ],
+        [
+          "M32",
+          "M33",
+          false
+        ],
+        [
+          "M23",
+          "M33",
+          false
+        ],
+        [
+          "M33",
+          "M34",
+          false
+        ],
+        [
+          "M24",
+          "M34",
+          false
+        ],
+        [
+          "SE",
+          "M00",
+          false
+        ],
+        [
+          "E",
+          "M01",
+          false
+        ],
+        [
+          "NE",
+          "M02",
+          false
+        ]
+      ],
+      "stops": [
+        [
+          "m-depot",
+          "Meridian Coach Station",
+          "M00>M01:0",
+          30
+        ],
+        [
+          "m-market",
+          "Grand Market",
+          "M00>M01:0",
+          150
+        ],
+        [
+          "m-opera",
+          "Opera Avenue",
+          "M01>M02:0",
+          100
+        ],
+        [
+          "m-finance",
+          "Financial Quarter",
+          "M02>M03:0",
+          100
+        ],
+        [
+          "m-museum",
+          "Museum District",
+          "M03>M04:0",
+          100
+        ],
+        [
+          "m-gardens",
+          "Sky Gardens",
+          "M04>M14:0",
+          100
+        ],
+        [
+          "m-arena",
+          "Metropolitan Arena",
+          "M14>M24:0",
+          100
+        ],
+        [
+          "m-east",
+          "East Exchange",
+          "M24>M34:0",
+          100
+        ]
+      ],
+      "routes": [
+        {
+          "id": "M1",
+          "name": "Metropolitan Spine",
+          "description": "Station \u2192 Market \u2192 Opera \u2192 Finance \u2192 Museum. Dense signalized avenues.",
+          "stops": [
+            "m-depot",
+            "m-market",
+            "m-opera",
+            "m-finance",
+            "m-museum"
+          ],
+          "due": [
+            0,
+            60,
+            150,
+            250,
+            350
+          ],
+          "color": "#b2d9ef",
+          "min_seconds": 90,
+          "min_meters": 700,
+          "meters": 800,
+          "duration_slots": 8,
+          "level": 2
+        },
+        {
+          "id": "M2",
+          "name": "Arts & Gardens",
+          "description": "Museum \u2192 Gardens \u2192 Arena \u2192 East Exchange. Cross-city service.",
+          "stops": [
+            "m-museum",
+            "m-gardens",
+            "m-arena",
+            "m-east"
+          ],
+          "due": [
+            0,
+            120,
+            220,
+            320
+          ],
+          "color": "#e0b4d7",
+          "min_seconds": 80,
+          "min_meters": 600,
+          "meters": 740,
+          "duration_slots": 7,
+          "level": 3
+        }
+      ],
+      "landmarks": [
+        {
+          "kind": "plaza",
+          "x": 600,
+          "z": -120,
+          "name": "MERIDIAN CIVIC PLAZA"
+        },
+        {
+          "kind": "fuel",
+          "x": 500,
+          "z": 205,
+          "name": "MERIDIAN ENERGY"
+        },
+        {
+          "kind": "toll",
+          "x": 1100,
+          "z": -715,
+          "name": "EAST CONGESTION ZONE"
+        }
+      ]
+    },
+    {
+      "id": "coastway",
+      "name": "Coastway Intercity",
+      "kind": "intercity",
+      "description": "Long-distance express roads, sweeping bends, a viaduct, tunnel and rest areas.",
+      "bounds": [
+        -420,
+        -1720,
+        1960,
+        2050
+      ],
+      "nodes": [
+        {
+          "id": "C0",
+          "x": -240,
+          "z": -800,
+          "signal": false
+        },
+        {
+          "id": "C1",
+          "x": -240,
+          "z": -1200,
+          "signal": false
+        },
+        {
+          "id": "C2",
+          "x": -240,
+          "z": -1600,
+          "signal": false
+        },
+        {
+          "id": "C3",
+          "x": 900,
+          "z": -1600,
+          "signal": false
+        },
+        {
+          "id": "C4",
+          "x": 1250,
+          "z": -1450,
+          "signal": false
+        },
+        {
+          "id": "C5",
+          "x": 1400,
+          "z": -1100,
+          "signal": false
+        },
+        {
+          "id": "C6",
+          "x": 1400,
+          "z": -400,
+          "signal": false
+        },
+        {
+          "id": "C7",
+          "x": 1400,
+          "z": 240,
+          "signal": false
+        }
+      ],
+      "roads": [
+        [
+          "HN",
+          "C0",
+          true
+        ],
+        [
+          "C0",
+          "C1",
+          true
+        ],
+        [
+          "C1",
+          "C2",
+          true
+        ],
+        [
+          "C2",
+          "C3",
+          true
+        ],
+        [
+          "C3",
+          "C4",
+          true
+        ],
+        [
+          "C4",
+          "C5",
+          true
+        ],
+        [
+          "C5",
+          "C6",
+          true
+        ],
+        [
+          "C6",
+          "C7",
+          true
+        ],
+        [
+          "C7",
+          "SE",
+          true
+        ]
+      ],
+      "stops": [
+        [
+          "c-south",
+          "Coastway Gateway",
+          "HN>C0:0",
+          40
+        ],
+        [
+          "c-rest",
+          "Pine Rest Stop",
+          "C0>C1:0",
+          100
+        ],
+        [
+          "c-north",
+          "North Coast Station",
+          "C1>C2:0",
+          180
+        ],
+        [
+          "c-bay",
+          "Bay View",
+          "C2>C3:0",
+          500
+        ],
+        [
+          "c-port",
+          "Port Interchange",
+          "C5>C6:0",
+          260
+        ],
+        [
+          "c-east",
+          "East Rest Stop",
+          "C6>C7:0",
+          320
+        ]
+      ],
+      "routes": [
+        {
+          "id": "H1",
+          "name": "North Coast Express",
+          "description": "Gateway \u2192 Pine Rest \u2192 North Coast. Long straight expressway running.",
+          "stops": [
+            "c-south",
+            "c-rest",
+            "c-north"
+          ],
+          "due": [
+            0,
+            110,
+            240
+          ],
+          "color": "#e9c48b",
+          "min_seconds": 70,
+          "min_meters": 700,
+          "meters": 940,
+          "duration_slots": 6,
+          "level": 2
+        },
+        {
+          "id": "H2",
+          "name": "Coastal Connector",
+          "description": "North Coast \u2192 Bay View \u2192 Port \u2192 East Rest. Bends, tunnel and viaduct.",
+          "stops": [
+            "c-north",
+            "c-bay",
+            "c-port",
+            "c-east"
+          ],
+          "due": [
+            0,
+            160,
+            440,
+            600
+          ],
+          "color": "#96d4ca",
+          "min_seconds": 170,
+          "min_meters": 2600,
+          "meters": 3200,
+          "duration_slots": 12,
+          "level": 3
+        }
+      ],
+      "landmarks": [
+        {
+          "kind": "rest",
+          "x": -215,
+          "z": -920,
+          "name": "PINE REST / COFFEE"
+        },
+        {
+          "kind": "bridge",
+          "x": 300,
+          "z": -1600,
+          "name": "COASTWAY VIADUCT"
+        },
+        {
+          "kind": "tunnel",
+          "x": 680,
+          "z": -1600,
+          "name": "COAST RIDGE TUNNEL"
+        },
+        {
+          "kind": "toll",
+          "x": -235,
+          "z": -1120,
+          "name": "NORTH COAST TOLL"
+        },
+        {
+          "kind": "fuel",
+          "x": -220,
+          "z": -875,
+          "name": "PINE FUEL & CHARGE"
+        }
+      ]
+    }
+  ],
+  "weather": [
+    {
+      "id": "clear",
+      "name": "Clear skies",
+      "surface": "dry",
+      "fog_density": 0.0018,
+      "traffic": "normal"
+    },
+    {
+      "id": "rain",
+      "name": "Rain",
+      "surface": "wet",
+      "fog_density": 0.0045,
+      "traffic": "normal"
+    },
+    {
+      "id": "fog",
+      "name": "Damp fog",
+      "surface": "wet",
+      "fog_density": 0.017,
+      "traffic": "normal"
+    },
+    {
+      "id": "jam",
+      "name": "Rush hour",
+      "surface": "dry",
+      "fog_density": 0.0025,
+      "traffic": "high"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+import {createServer} from 'vite';import {mkdir,writeFile} from 'node:fs/promises';
+const server=await createServer({server:{middlewareMode:true},appType:'custom'});try{const {soak}=await server.ssrLoadModule('/tests/endurance.ts'),start=performance.now(),report=soak(Number(process.env.GAME_HOURS??3),()=>process.memoryUsage());await mkdir('test-results/stage6',{recursive:true});await writeFile('test-results/stage6/endurance.json',JSON.stringify({...report,wallSeconds:(performance.now()-start)/1000,finished:new Date().toISOString()},null,2));}finally{await server.close();}

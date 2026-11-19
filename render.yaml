@@ -1,0 +1,44 @@
+# FREE-ONLY demo blueprint. Do not apply if either resource is shown as paid.
+# Render generates the signing secret and wires the database URL internally;
+# no token, password or signing-secret value is stored in this file.
+services:
+  - type: web
+    name: citybus-driver-api
+    runtime: python
+    plan: free
+    region: oregon
+    rootDir: backend
+    buildCommand: python -m pip install -r requirements.lock && python -m pip install --no-deps .
+    startCommand: python -m alembic upgrade head && python -m app.seed && exec python -m uvicorn app.main:app --host 0.0.0.0 --port "$PORT" --workers 1
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.15
+      - key: ENVIRONMENT
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: citybus-driver-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: COOKIE_SAMESITE
+        value: none
+      - key: CORS_ORIGINS
+        sync: false
+      # Conservative demo limits; not a capacity guarantee on Free hardware.
+      - key: MULTIPLAYER_MAX_ROOMS
+        value: "4"
+      - key: MULTIPLAYER_MAX_CONNECTIONS
+        value: "32"
+      - key: MULTIPLAYER_SNAPSHOT_HZ
+        value: "10"
+databases:
+  - name: citybus-driver-db
+    plan: free
+    region: oregon
+    postgresMajorVersion: "17"
+    databaseName: citybus_driver
+    user: citybus_driver
