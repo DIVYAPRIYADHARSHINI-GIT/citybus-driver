@@ -1,0 +1,11 @@
+{
+  "scope": "Original CityBus frontend/backend source trees, including ignored dependencies and outputs; unrelated projects excluded",
+  "threshold_bytes": 50000000,
+  "files_checked": 11596,
+  "files_above_threshold": [],
+  "largest_file": {
+    "path": "frontend/node_modules/@typescript/typescript-darwin-arm64/lib/tsc",
+    "bytes": 23653616
+  },
+  "handling": "Dependencies, private environments/databases and build outputs were excluded from the isolated publication copy."
+}

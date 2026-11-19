@@ -37,6 +37,10 @@ coverage/
 *.sqlite
 *.sqlite3
 *.sqlite-*
+*.dump
+*.sql.gz
+pgdata/
+.pgpass
 *.log
 logs/
 test-results/

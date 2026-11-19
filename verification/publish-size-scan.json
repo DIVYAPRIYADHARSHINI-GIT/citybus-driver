@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-11-19T17:24:46.286883+05:30",
+  "scope": "Entire CityBus publication folder, including installed dependencies and build output; Git internals and unrelated parent-workspace projects excluded",
+  "threshold_bytes": 50000000,
+  "files_checked": 6406,
+  "files_above_threshold": [],
+  "largest_file": {
+    "path": "frontend/node_modules/@typescript/typescript-darwin-arm64/lib/tsc",
+    "bytes": 23653616
+  },
+  "handling": "Dependencies/build outputs are ignored. No Git LFS used."
+}

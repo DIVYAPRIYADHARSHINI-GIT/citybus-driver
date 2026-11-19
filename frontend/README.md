@@ -1,5 +1,7 @@
 # CityBus Driver
 
+**Publication:** [GitHub](https://github.com/DIVYAPRIYADHARSHINI-GIT/citybus-driver) · [Live frontend — Vercel Hobby](https://citybus-driver.vercel.app). The Render backend is not deployed; login/cloud/multiplayer are blocked. See the [current final report](../FINAL_REPORT.md) and [free-only deployment steps](../DEPLOY.md).
+
 **Take the wheel. Feel the road. Make every stop matter.**
 
 An offline-first **Vite / TypeScript / Three.js / cannon-es** driving game with a separate optional **FastAPI / SQLAlchemy / Alembic** service. The Stage 1–5 systems remain; Stage 6 adds two connected regions, the full 24-profile fleet, map-aware online features and further cockpit/testing work.
@@ -88,4 +90,4 @@ The all-route physics sweep is **not** a substitute for all-model browser runs w
 - `src/storage.ts`, `src/preferences.ts` — legacy-compatible game saves and separate device preferences.
 - `../backend/app/world_data.py`, `fleet_specs.py` — authoritative fictional world/fleet calibration, exported by `scripts/export_catalog.py`.
 
-All art and audio are procedural/original. Maps are fictional. No public deployment, paid service or remote account was created. Game units are metres, seconds, kilograms and integer euro cents, independent of the surrounding CAD workspace's unit setting.
+All art and audio are procedural/original. Maps are fictional. The frontend is now published on Vercel Hobby; no paid service or new provider account was created. The backend remains a manual Render step. Game units are metres, seconds, kilograms and integer euro cents, independent of the surrounding CAD workspace's unit setting.

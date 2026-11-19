@@ -1,0 +1,113 @@
+{
+  "origin": "https://citybus-driver.vercel.app",
+  "runId": "2026-11-19T11-37-40-052Z",
+  "verifiedAt": "2026-11-19T11:37:51.095Z",
+  "timezone": "Asia/Kolkata",
+  "checks": [
+    {
+      "label": "production frontend responds successfully",
+      "passed": true
+    },
+    {
+      "label": "live main menu and WebGL app load",
+      "passed": true
+    },
+    {
+      "label": "real keyboard accelerator moves the live physics body",
+      "passed": true
+    },
+    {
+      "label": "keyboard steering changes the live steering state",
+      "passed": true
+    },
+    {
+      "label": "service brake stops the bus",
+      "passed": true
+    },
+    {
+      "label": "completed drive is saved locally",
+      "passed": true
+    },
+    {
+      "label": "live landscape viewport has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "landscape driving controls remain visible and touch-sized",
+      "passed": true
+    },
+    {
+      "label": "no unhandled application errors in the exercised live frontend journey",
+      "passed": true
+    },
+    {
+      "label": "no unexpected console/WebGL errors (intentional API probes recorded separately)",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "screenshots/live/2026-11-19T11-37-40-052Z/main-menu.png",
+      "caption": "Live production main menu on the recorded HTTPS origin."
+    },
+    {
+      "path": "screenshots/live/2026-11-19T11-37-40-052Z/driving-cockpit.png",
+      "caption": "Live cockpit after genuine keyboard acceleration; no pose/finish mutator was used."
+    },
+    {
+      "path": "screenshots/live/2026-11-19T11-37-40-052Z/driving-exterior.png",
+      "caption": "Live exterior view after the physical driving and braking check."
+    },
+    {
+      "path": "screenshots/live/2026-11-19T11-37-40-052Z/local-logbook.png",
+      "caption": "Live local logbook. This is local storage, not a cloud-save success."
+    },
+    {
+      "path": "screenshots/live/2026-11-19T11-37-40-052Z/login-ui.png",
+      "caption": "Login interface loads, but authentication cannot be completed without a deployed backend."
+    },
+    {
+      "path": "screenshots/live/2026-11-19T11-37-40-052Z/landscape.png",
+      "caption": "Live desktop-Chrome touch emulation at 844×390; not a physical Android test."
+    }
+  ],
+  "bugs": [
+    {
+      "path": "bugs/live/2026-11-19T11-37-40-052Z/multiplayer-blocked.png",
+      "caption": "Live multiplayer entry requires sign-in; an authenticated room run is blocked by the absent backend."
+    },
+    {
+      "path": "bugs/live/2026-11-19T11-37-40-052Z/api-health-response.png",
+      "caption": "Actual frontend /api/health response (HTTP 404). This is not a Render health URL; no backend has been provisioned."
+    }
+  ],
+  "apiProbes": [
+    {
+      "path": "/api/health",
+      "status": 404,
+      "contentType": "text/plain; charset=utf-8",
+      "state": null
+    },
+    {
+      "path": "/api/saves",
+      "status": 404,
+      "contentType": "text/plain; charset=utf-8",
+      "state": null
+    },
+    {
+      "path": "/api/multiplayer/rooms",
+      "status": 404,
+      "contentType": "text/plain; charset=utf-8",
+      "state": null
+    }
+  ],
+  "applicationErrors": [],
+  "unexpectedConsoleErrors": [],
+  "expectedApiErrors": 3,
+  "online": {
+    "login": "blocked: no Render backend deployed",
+    "cloudSave": "blocked: no Render backend deployed",
+    "multiplayerRoom": "blocked: no Render backend deployed"
+  },
+  "status": "frontend_passed_backend_blocked"
+}

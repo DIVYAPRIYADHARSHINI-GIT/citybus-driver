@@ -1,5 +1,7 @@
 # CityBus Driver — delivery status
 
+**Current hosting update:** the [public frontend](https://citybus-driver.vercel.app) is live on Vercel Hobby and the [GitHub repository](https://github.com/DIVYAPRIYADHARSHINI-GIT/citybus-driver) is public. Render/backend online flows remain blocked. The counts below are earlier local verification; see [FINAL_REPORT.md](../../FINAL_REPORT.md) for current live results and preserved screenshots.
+
 **19 November 2026 · Asia/Kolkata**
 
 The Stage 6 regional/fleet/backend extension is implemented. **This is still a tested procedural game prototype, not a fully finished commercial simulator.** The authoritative delivery boundary, measured results, commands and remaining product work are in [STAGE6.md](STAGE6.md).

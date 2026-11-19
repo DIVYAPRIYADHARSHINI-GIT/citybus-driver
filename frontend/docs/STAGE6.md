@@ -2,10 +2,10 @@
 
 ## Links — publication update
 
-- GitHub: publication pending for `DIVYAPRIYADHARSHINI-GIT/citybus-driver`.
-- Live frontend: deployment pending.
+- GitHub: https://github.com/DIVYAPRIYADHARSHINI-GIT/citybus-driver — public, `main`.
+- Live frontend: https://citybus-driver.vercel.app — Vercel Hobby, single-player verified.
 - Live backend / health: not deployed; Render CLI is unavailable.
-- Last publication verification: 19 November 2026, Asia/Kolkata; final live results are in [FINAL_REPORT.md](../../FINAL_REPORT.md).
+- Last live browser verification: **19 November 2026, 17:07:51 IST**. Ten frontend checks passed; login/cloud/rooms are blocked. See [FINAL_REPORT.md](../../FINAL_REPORT.md) and [PDF](../../FINAL_REPORT.pdf).
 - A free Render backend may take up to about a minute to wake after idle. Free PostgreSQL expires after 30 days.
 
 The remainder of this stage note records the earlier **local** implementation/verification. It is not a claim that backend features have been verified on a live host. The publication update and final report take precedence for hosting status.

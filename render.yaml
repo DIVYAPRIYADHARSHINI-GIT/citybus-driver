@@ -27,7 +27,7 @@ services:
       - key: COOKIE_SAMESITE
         value: none
       - key: CORS_ORIGINS
-        sync: false
+        value: '["https://citybus-driver.vercel.app"]'
       # Conservative demo limits; not a capacity guarantee on Free hardware.
       - key: MULTIPLAYER_MAX_ROOMS
         value: "4"

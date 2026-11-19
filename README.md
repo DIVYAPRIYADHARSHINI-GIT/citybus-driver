@@ -4,10 +4,10 @@ An offline-first bus-driving game prototype with optional company management, cl
 
 ## Links and current publication status
 
-- **GitHub:** publication in progress; the requested repository is `DIVYAPRIYADHARSHINI-GIT/citybus-driver`.
-- **Live frontend:** deployment in progress.
+- **GitHub:** https://github.com/DIVYAPRIYADHARSHINI-GIT/citybus-driver — public repository, `main`.
+- **Live frontend:** https://citybus-driver.vercel.app — Vercel Hobby, single-player available.
 - **Live backend / health:** not deployed. Render CLI is unavailable; see the exact free-only browser setup in [DEPLOY.md](DEPLOY.md).
-- **Last verification:** publication checks started 19 November 2026 (Asia/Kolkata); final live results will be recorded in [FINAL_REPORT.md](FINAL_REPORT.md).
+- **Last live browser verification:** 19 November 2026, **17:07:51 IST**. Ten frontend checks passed; online flows are blocked. See [FINAL_REPORT.md](FINAL_REPORT.md) and [PDF](FINAL_REPORT.pdf).
 - **Free-host warning:** a free Render backend may take up to about a minute to wake after being idle. Free PostgreSQL expires after 30 days; this is a free demo, not guaranteed permanent hosting.
 
 > The frontend can drive without an API. Login, cloud saving and multiplayer require a working backend and must not be presented as live-verified before one exists.
@@ -25,7 +25,7 @@ An offline-first bus-driving game prototype with optional company management, cl
 
 This remains a procedural game prototype, **not** a manufacturer-calibrated driving trainer or a fully polished commercial simulator. Art, simulation, controller, device and production-service limits are documented in [STAGE6.md](frontend/docs/STAGE6.md).
 
-![Earlier local main-menu capture — not a live-hosting result](screenshots/local/01-home-desktop.png)
+![Verified live production main menu on citybus-driver.vercel.app](screenshots/live/2026-11-19T11-37-40-052Z/main-menu.png)
 
 ## Architecture
 
@@ -85,7 +85,7 @@ npm run test:endurance
 .venv/bin/python scripts/test_postgres.py  # disposable LOCAL PostgreSQL database only
 ```
 
-Earlier recorded verification: 378 frontend checks; 246 backend checks on SQLite and the same suite on live PostgreSQL; 168 isolated route/model physics runs. Those are **local** results, not proof of hosted Android/WAN behavior. See the stage notes and final report for methods, failures and coverage boundaries. Never point test fixtures at live player storage.
+Publication-copy verification: **378 frontend checks, TypeScript/Vite build and 246 backend SQLite tests passed again**. Earlier local evidence also includes the backend suite on live local PostgreSQL and 168 isolated route/model physics runs. Those are not proof of Render/Android/WAN behavior. The public frontend has ten passing live checks; login, cloud save and authenticated rooms are blocked because no Render backend exists. Never point test fixtures at live player storage.
 
 ## Documentation and evidence
 
@@ -94,6 +94,6 @@ Earlier recorded verification: 378 frontend checks; 246 backend checks on SQLite
 - Stage notes: [1](frontend/docs/STAGE1.md), [2](frontend/docs/STAGE2.md), [3](frontend/docs/STAGE3.md), [4](frontend/docs/STAGE4.md), [5](frontend/docs/STAGE5.md), [6](frontend/docs/STAGE6.md)
 - Earlier local screenshots: `screenshots/local/`
 - Preserved local failure screenshots: `bugs/local/`
-- Live screenshots and problems will be kept separately under `screenshots/live/` and `bugs/live/`; failures are not deleted.
+- Live screenshots and observed deployment blockers are kept separately under `screenshots/live/` and `bugs/live/`; failures are not deleted.
 
 This repository is an isolated publication copy of CityBus Driver. Unrelated applications and maker projects from the original workspace were deliberately not included. No paid service or Git LFS is required.

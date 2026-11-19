@@ -2,10 +2,10 @@
 
 ## Links and status
 
-- GitHub: publication pending for `DIVYAPRIYADHARSHINI-GIT/citybus-driver`.
-- Frontend: Vercel Hobby deployment pending.
+- GitHub: https://github.com/DIVYAPRIYADHARSHINI-GIT/citybus-driver — public, `main`.
+- Frontend: https://citybus-driver.vercel.app — deployed on the verified Hobby scope.
 - Backend and `/health`: **not deployed**. Render CLI is not installed; no Render account, service or database was created by the agent.
-- Last verification: 19 November 2026, Asia/Kolkata; see [FINAL_REPORT.md](FINAL_REPORT.md) for actual live results.
+- Last live browser verification: **19 November 2026, 17:07:51 IST**; see [FINAL_REPORT.md](FINAL_REPORT.md) for the ten passing frontend checks and blocked online flows.
 
 Only a public GitHub repository, **Vercel Hobby**, a **Render Free web service** and **Render Free PostgreSQL** are authorized. Do not enter payment details, select a paid plan or upgrade a service. If a provider asks for payment/card verification or does not offer the Free option, stop.
 
@@ -52,13 +52,13 @@ Use an **existing** Render account:
 2. Click **New + → Blueprint**.
 3. Connect/select the existing GitHub integration and select **`DIVYAPRIYADHARSHINI-GIT/citybus-driver`**, branch **`main`**. If GitHub asks for repository access, authorize only this repository using your own session. Do not share any token with the agent.
 4. Use Blueprint path **`render.yaml`** at the repository root. Choose a blueprint name such as **citybus-driver-free**.
-5. At the environment prompt for **`CORS_ORIGINS`**, enter the exact live frontend origin as a JSON array:
+5. Confirm the blueprint's **`CORS_ORIGINS`** value is exactly the live frontend origin below. If an earlier revision prompts for it, enter this exact JSON array:
 
    ```text
-   ["https://ACTUAL-VERCEL-FRONTEND"]
+   ["https://citybus-driver.vercel.app"]
    ```
 
-   Replace it with the verified frontend link in the final report. No trailing slash, path or wildcard.
+   No trailing slash, path or wildcard. Update this value only if the canonical frontend domain changes.
 6. Review **both** proposed resources before applying:
    - `citybus-driver-api`: **Web Service / Python / Free / Oregon**, root `backend`.
    - `citybus-driver-db`: **PostgreSQL / Free / Oregon**, PostgreSQL 17, database/user `citybus_driver`.
@@ -83,7 +83,7 @@ Use an **existing** Render account:
 | `JWT_SECRET` | Generated privately by Render, not a literal in Git |
 | `COOKIE_SECURE` | `true` |
 | `COOKIE_SAMESITE` | `none` for unrelated Vercel/Render sites |
-| `CORS_ORIGINS` | Exact frontend HTTPS origin JSON array, entered at blueprint creation |
+| `CORS_ORIGINS` | `["https://citybus-driver.vercel.app"]` |
 | Demo room limits | 4 rooms, 32 connections, 10 Hz snapshots; **unverified on Free hardware** |
 
 Free services do not have the paid pre-deploy-command feature. Therefore migrations and seeding are in the single-process start command:
